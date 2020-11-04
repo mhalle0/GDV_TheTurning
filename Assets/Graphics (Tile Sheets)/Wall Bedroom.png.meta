@@ -1,0 +1,553 @@
+fileFormatVersion: 2
+guid: b8948cf5b9d014c0b8a7d204b5f040cc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8944667981112012013
+    second: Wall Bedroom_0
+  - first:
+      213: 3961656754326818708
+    second: Wall Bedroom_1
+  - first:
+      213: -5629714851457694624
+    second: Wall Bedroom_0
+  - first:
+      213: 3881538652158399371
+    second: Wall Bedroom_1
+  - first:
+      213: -7167793959180350786
+    second: Wall Bedroom_2
+  - first:
+      213: -5721527433607769908
+    second: Wall Bedroom_3
+  - first:
+      213: 6790774578483968676
+    second: Wall Bedroom_4
+  - first:
+      213: -4838412788292668543
+    second: Wall Bedroom_5
+  - first:
+      213: 689858672956656240
+    second: Wall Bedroom_6
+  - first:
+      213: 235724152348781161
+    second: Wall Bedroom_7
+  - first:
+      213: -2419118980412827710
+    second: Wall Bedroom_8
+  - first:
+      213: -5936822979295265076
+    second: Wall Bedroom_9
+  - first:
+      213: -802004204549139664
+    second: Wall Bedroom_10
+  - first:
+      213: -5767772202331224636
+    second: Wall Bedroom_11
+  - first:
+      213: -7367836995206222275
+    second: Wall Bedroom_12
+  - first:
+      213: 7442757621165790571
+    second: Wall Bedroom_13
+  - first:
+      213: -3985498122132975598
+    second: Wall Bedroom_14
+  - first:
+      213: 681253491698106488
+    second: Wall Bedroom_15
+  - first:
+      213: 947944090524299867
+    second: Wall Bedroom_16
+  - first:
+      213: -5783650649642157659
+    second: Wall Bedroom_17
+  - first:
+      213: 8605014817394081195
+    second: Wall Bedroom_18
+  - first:
+      213: 2334819572397237685
+    second: Wall Bedroom_19
+  - first:
+      213: -5988789031149750858
+    second: Wall Bedroom_20
+  - first:
+      213: -6540302932456916360
+    second: Wall Bedroom_21
+  - first:
+      213: 2081980837020186565
+    second: Wall Bedroom_22
+  - first:
+      213: 3111808989216421167
+    second: Wall Bedroom_23
+  - first:
+      213: -2549747935022985435
+    second: Wall Bedroom_24
+  - first:
+      213: -7001686423322728916
+    second: Wall Bedroom_25
+  - first:
+      213: -131191707701101050
+    second: Wall Bedroom_26
+  - first:
+      213: 8678112544875226309
+    second: Wall Bedroom_27
+  - first:
+      213: -6303475409560089546
+    second: Wall Bedroom_28
+  - first:
+      213: -5240028397467235822
+    second: Wall Bedroom_29
+  - first:
+      213: -7128804668823145505
+    second: Wall Bedroom_30
+  - first:
+      213: 8973903727178673079
+    second: Wall Bedroom_31
+  - first:
+      213: 6971572701888506266
+    second: Wall Bedroom_32
+  - first:
+      213: -234842072268902106
+    second: Wall Bedroom_33
+  - first:
+      213: -2364531375044382457
+    second: Wall Bedroom_34
+  - first:
+      213: -3768997451714812881
+    second: Wall Bedroom_35
+  - first:
+      213: -8615127799619954762
+    second: Wall Bedroom_36
+  - first:
+      213: 2492097071550341942
+    second: Wall Bedroom_37
+  - first:
+      213: 99183314026370171
+    second: Wall Bedroom_38
+  - first:
+      213: -4553955907994204564
+    second: Wall Bedroom_39
+  - first:
+      213: -1702972541281942022
+    second: Wall Bedroom_40
+  - first:
+      213: -8888899474388610504
+    second: Wall Bedroom_41
+  - first:
+      213: 7940299570263728964
+    second: Wall Bedroom_42
+  - first:
+      213: -6021475347370446929
+    second: Wall Bedroom_43
+  - first:
+      213: 150969086147988273
+    second: Wall Bedroom_44
+  - first:
+      213: 7685995361132398808
+    second: Wall Bedroom_45
+  - first:
+      213: 8766076220671671347
+    second: Wall Bedroom_46
+  - first:
+      213: -4428263028209621564
+    second: Wall Bedroom_47
+  - first:
+      213: -908496107812400675
+    second: Wall Bedroom_48
+  - first:
+      213: 7540199853092897954
+    second: Wall Bedroom_49
+  - first:
+      213: -7837395793155271748
+    second: Wall Bedroom_50
+  - first:
+      213: 5527922543724742697
+    second: Wall Bedroom_51
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 40
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Wall Bedroom_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0648f1c8b2c3fd1b0800000000000000
+      internalID: -5629714851457694624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall Bedroom_1
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 160
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8399dfb6defdd530800000000000000
+      internalID: 3881538652158399371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall Bedroom_2
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 160
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eba4dd7ee51e68c90800000000000000
+      internalID: -7167793959180350786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall Bedroom_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 120
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc01823fc1d0990b0800000000000000
+      internalID: -5721527433607769908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall Bedroom_4
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 120
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aa3a44008dad3e50800000000000000
+      internalID: 6790774578483968676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall Bedroom_5
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 120
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 183bb1d34318adcb0800000000000000
+      internalID: -4838412788292668543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall Bedroom_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 80
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07acdcadeced29900800000000000000
+      internalID: 689858672956656240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall Bedroom_7
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 80
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96aaabd1ed5754300800000000000000
+      internalID: 235724152348781161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall Bedroom_8
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 80
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c79617ba109d6ed0800000000000000
+      internalID: -2419118980412827710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall Bedroom_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 40
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccebab874fa2c9da0800000000000000
+      internalID: -5936822979295265076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall Bedroom_10
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 40
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0339a77dc65bed4f0800000000000000
+      internalID: -802004204549139664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall Bedroom_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c5ccaeadb1c4ffa0800000000000000
+      internalID: -5767772202331224636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall Bedroom_12
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 0
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3e60c11a4f20c990800000000000000
+      internalID: -7367836995206222275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

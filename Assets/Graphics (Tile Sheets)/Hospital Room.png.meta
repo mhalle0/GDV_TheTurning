@@ -1,0 +1,3424 @@
+fileFormatVersion: 2
+guid: 4e172dca8d53c4d9d9932364f7fc452b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3491026801079904822
+    second: Hospital Room_0
+  - first:
+      213: 2204787252034302253
+    second: Hospital Room_1
+  - first:
+      213: 2017871421324025349
+    second: Hospital Room_2
+  - first:
+      213: 8165879878023502294
+    second: Hospital Room_3
+  - first:
+      213: -8444197917514233964
+    second: Hospital Room_4
+  - first:
+      213: 6929412152801263625
+    second: Hospital Room_5
+  - first:
+      213: -4702967459892808409
+    second: Hospital Room_6
+  - first:
+      213: 2994104263100664871
+    second: Hospital Room_7
+  - first:
+      213: 4922411238537659840
+    second: Hospital Room_8
+  - first:
+      213: 6442847509239027262
+    second: Hospital Room_9
+  - first:
+      213: -486625066961551420
+    second: Hospital Room_10
+  - first:
+      213: -7084455804676479903
+    second: Hospital Room_11
+  - first:
+      213: 1423573673639979647
+    second: Hospital Room_12
+  - first:
+      213: -7884767604748099298
+    second: Hospital Room_13
+  - first:
+      213: -603235670799580451
+    second: Hospital Room_14
+  - first:
+      213: -6405711310903354859
+    second: Hospital Room_15
+  - first:
+      213: -774386330887355157
+    second: Hospital Room_16
+  - first:
+      213: -7717768662007820016
+    second: Hospital Room_17
+  - first:
+      213: 9070353356695285481
+    second: Hospital Room_18
+  - first:
+      213: -5756965091723791605
+    second: Hospital Room_19
+  - first:
+      213: -1781020064335187716
+    second: Hospital Room_20
+  - first:
+      213: 440712500186051111
+    second: Hospital Room_21
+  - first:
+      213: -4012095752611511386
+    second: Hospital Room_22
+  - first:
+      213: 3243455013253054797
+    second: Hospital Room_23
+  - first:
+      213: 1225704204468066818
+    second: Hospital Room_24
+  - first:
+      213: -1592941782690010288
+    second: Hospital Room_25
+  - first:
+      213: -4756395311382423117
+    second: Hospital Room_26
+  - first:
+      213: 8027449008578861036
+    second: Hospital Room_27
+  - first:
+      213: -5633990109912098080
+    second: Hospital Room_28
+  - first:
+      213: -6940098119527906821
+    second: Hospital Room_29
+  - first:
+      213: -5020471912233120294
+    second: Hospital Room_30
+  - first:
+      213: 1248951309091711300
+    second: Hospital Room_31
+  - first:
+      213: 9093564155049419420
+    second: Hospital Room_32
+  - first:
+      213: -9151261876654069072
+    second: Hospital Room_33
+  - first:
+      213: -2598562770257206033
+    second: Hospital Room_34
+  - first:
+      213: 7954871860922995137
+    second: Hospital Room_35
+  - first:
+      213: 5423251945535197550
+    second: Hospital Room_36
+  - first:
+      213: 6668286929258745258
+    second: Hospital Room_37
+  - first:
+      213: -1480322710053315075
+    second: Hospital Room_38
+  - first:
+      213: -8033110305206112425
+    second: Hospital Room_39
+  - first:
+      213: 4581509905577144329
+    second: Hospital Room_40
+  - first:
+      213: 5364267830628337823
+    second: Hospital Room_41
+  - first:
+      213: 9033414581968396188
+    second: Hospital Room_42
+  - first:
+      213: 4230053534183840253
+    second: Hospital Room_43
+  - first:
+      213: 2309824401020160691
+    second: Hospital Room_44
+  - first:
+      213: 6948686405325234558
+    second: Hospital Room_45
+  - first:
+      213: 9175804232373147219
+    second: Hospital Room_46
+  - first:
+      213: 4940147406936212164
+    second: Hospital Room_47
+  - first:
+      213: 8471466003846993804
+    second: Hospital Room_48
+  - first:
+      213: -3714514734631753298
+    second: Hospital Room_49
+  - first:
+      213: -6042975080135705171
+    second: Hospital Room_50
+  - first:
+      213: -1426322326978582646
+    second: Hospital Room_51
+  - first:
+      213: -2651574646573330669
+    second: Hospital Room_52
+  - first:
+      213: 1594427052016764368
+    second: Hospital Room_53
+  - first:
+      213: -7420649132391844240
+    second: Hospital Room_54
+  - first:
+      213: -29666876512528131
+    second: Hospital Room_55
+  - first:
+      213: -8681845346128749725
+    second: Hospital Room_56
+  - first:
+      213: 7047286788960001738
+    second: Hospital Room_57
+  - first:
+      213: -1097979490814195944
+    second: Hospital Room_58
+  - first:
+      213: -5219546436384255596
+    second: Hospital Room_59
+  - first:
+      213: 7677689204054044205
+    second: Hospital Room_60
+  - first:
+      213: -4280510737324445775
+    second: Hospital Room_61
+  - first:
+      213: -9218766852003896073
+    second: Hospital Room_62
+  - first:
+      213: -5684921387313098892
+    second: Hospital Room_63
+  - first:
+      213: -2313216105706440586
+    second: Hospital Room_64
+  - first:
+      213: -6039600375289895483
+    second: Hospital Room_65
+  - first:
+      213: 3932110887844784013
+    second: Hospital Room_66
+  - first:
+      213: 3028090788763139494
+    second: Hospital Room_67
+  - first:
+      213: 82784229564538541
+    second: Hospital Room_68
+  - first:
+      213: 9100771699898510940
+    second: Hospital Room_69
+  - first:
+      213: -7637680207910808934
+    second: Hospital Room_70
+  - first:
+      213: -1903127212416390560
+    second: Hospital Room_71
+  - first:
+      213: 8764278410282676210
+    second: Hospital Room_72
+  - first:
+      213: -1042976937434080075
+    second: Hospital Room_73
+  - first:
+      213: -1360555944326864940
+    second: Hospital Room_74
+  - first:
+      213: 8373702348254485172
+    second: Hospital Room_75
+  - first:
+      213: -2095128811107494538
+    second: Hospital Room_76
+  - first:
+      213: -8707528686814120345
+    second: Hospital Room_77
+  - first:
+      213: -1853491021128376612
+    second: Hospital Room_78
+  - first:
+      213: -8382347238840828461
+    second: Hospital Room_79
+  - first:
+      213: -4082756766005007520
+    second: Hospital Room_80
+  - first:
+      213: 6486451622695765689
+    second: Hospital Room_81
+  - first:
+      213: -1605363938694598510
+    second: Hospital Room_82
+  - first:
+      213: -452477880841765503
+    second: Hospital Room_83
+  - first:
+      213: -4040164352450199913
+    second: Hospital Room_84
+  - first:
+      213: 5304591190187989921
+    second: Hospital Room_85
+  - first:
+      213: -3536653053422908696
+    second: Hospital Room_86
+  - first:
+      213: -2219811356685241122
+    second: Hospital Room_87
+  - first:
+      213: -2130396783198771258
+    second: Hospital Room_88
+  - first:
+      213: 2451488441050546003
+    second: Hospital Room_89
+  - first:
+      213: 5987140645334319715
+    second: Hospital Room_90
+  - first:
+      213: -4625191531900809849
+    second: Hospital Room_91
+  - first:
+      213: 1774509001282217545
+    second: Hospital Room_92
+  - first:
+      213: 5572571784594238215
+    second: Hospital Room_93
+  - first:
+      213: 2930665654447385235
+    second: Hospital Room_94
+  - first:
+      213: -801993257021686582
+    second: Hospital Room_95
+  - first:
+      213: 3821193478492944110
+    second: Hospital Room_96
+  - first:
+      213: -1190827113294374956
+    second: Hospital Room_97
+  - first:
+      213: 1119172996371611247
+    second: Hospital Room_98
+  - first:
+      213: -2176058870790766891
+    second: Hospital Room_99
+  - first:
+      213: 2925810596386645653
+    second: Hospital Room_100
+  - first:
+      213: -1628981128546277348
+    second: Hospital Room_101
+  - first:
+      213: -8055705754565774012
+    second: Hospital Room_102
+  - first:
+      213: -682111203989810068
+    second: Hospital Room_103
+  - first:
+      213: 7084100070795865644
+    second: Hospital Room_104
+  - first:
+      213: -6958624982835714785
+    second: Hospital Room_105
+  - first:
+      213: -9212936229301925823
+    second: Hospital Room_106
+  - first:
+      213: 6351208358916185995
+    second: Hospital Room_107
+  - first:
+      213: -274419056604866266
+    second: Hospital Room_108
+  - first:
+      213: -1723079990178699476
+    second: Hospital Room_109
+  - first:
+      213: 8899640481361352885
+    second: Hospital Room_110
+  - first:
+      213: 4062789346075469445
+    second: Hospital Room_111
+  - first:
+      213: -1984163915962057558
+    second: Hospital Room_112
+  - first:
+      213: -65373896157458492
+    second: Hospital Room_113
+  - first:
+      213: -8848456168780194301
+    second: Hospital Room_114
+  - first:
+      213: 6029449398244881594
+    second: Hospital Room_115
+  - first:
+      213: 1687201206822807637
+    second: Hospital Room_116
+  - first:
+      213: 5824172562879164744
+    second: Hospital Room_117
+  - first:
+      213: 4276835967783084670
+    second: Hospital Room_118
+  - first:
+      213: 4676660978707004134
+    second: Hospital Room_119
+  - first:
+      213: 8802926794974918073
+    second: Hospital Room_120
+  - first:
+      213: -2383073157354216894
+    second: Hospital Room_121
+  - first:
+      213: -4766855526383310260
+    second: Hospital Room_122
+  - first:
+      213: -4913397534881972551
+    second: Hospital Room_123
+  - first:
+      213: -972578703546131402
+    second: Hospital Room_124
+  - first:
+      213: -4430103147933595587
+    second: Hospital Room_125
+  - first:
+      213: 885295547649136879
+    second: Hospital Room_126
+  - first:
+      213: 7933226376336239318
+    second: Hospital Room_127
+  - first:
+      213: -8155696987804160846
+    second: Hospital Room_128
+  - first:
+      213: -490671185227206530
+    second: Hospital Room_129
+  - first:
+      213: -1525271648045724376
+    second: Hospital Room_130
+  - first:
+      213: -2268853461594567973
+    second: Hospital Room_131
+  - first:
+      213: 3807137573372173950
+    second: Hospital Room_132
+  - first:
+      213: 7085021348101963162
+    second: Hospital Room_133
+  - first:
+      213: 1288535596716004431
+    second: Hospital Room_134
+  - first:
+      213: 617403647761547898
+    second: Hospital Room_135
+  - first:
+      213: 3578238042926740222
+    second: Hospital Room_136
+  - first:
+      213: 6775814591686764159
+    second: Hospital Room_137
+  - first:
+      213: 5532633720274056720
+    second: Hospital Room_138
+  - first:
+      213: 4300938027496270333
+    second: Hospital Room_139
+  - first:
+      213: 4256259565683622106
+    second: Hospital Room_140
+  - first:
+      213: -4811552502211777283
+    second: Hospital Room_141
+  - first:
+      213: -278681803420782655
+    second: Hospital Room_142
+  - first:
+      213: 297150730177831114
+    second: Hospital Room_143
+  - first:
+      213: -7860761400732997013
+    second: Hospital Room_144
+  - first:
+      213: -2218205589129173995
+    second: Hospital Room_145
+  - first:
+      213: 2983885020675220076
+    second: Hospital Room_146
+  - first:
+      213: 6060112485179413172
+    second: Hospital Room_147
+  - first:
+      213: 5058753747451885092
+    second: Hospital Room_148
+  - first:
+      213: -1423602850608980794
+    second: Hospital Room_149
+  - first:
+      213: -671133369973454252
+    second: Hospital Room_150
+  - first:
+      213: 6857200849457394562
+    second: Hospital Room_151
+  - first:
+      213: -5263691349196606563
+    second: Hospital Room_152
+  - first:
+      213: 8158120720478341189
+    second: Hospital Room_153
+  - first:
+      213: 1982521076547366255
+    second: Hospital Room_154
+  - first:
+      213: -8302362592339026234
+    second: Hospital Room_155
+  - first:
+      213: 5650174124519901916
+    second: Hospital Room_156
+  - first:
+      213: -6570752835182988113
+    second: Hospital Room_157
+  - first:
+      213: -40389458281181117
+    second: Hospital Room_158
+  - first:
+      213: 1331053271478986368
+    second: Hospital Room_159
+  - first:
+      213: 9179940397149600315
+    second: Hospital Room_160
+  - first:
+      213: -3771690443774412293
+    second: Hospital Room_161
+  - first:
+      213: -5406978393718757515
+    second: Hospital Room_162
+  - first:
+      213: 2462135688848383334
+    second: Hospital Room_163
+  - first:
+      213: 342019915210411156
+    second: Hospital Room_164
+  - first:
+      213: -4125591144813720895
+    second: Hospital Room_165
+  - first:
+      213: 6215091997746251429
+    second: Hospital Room_166
+  - first:
+      213: -8206952861495744166
+    second: Hospital Room_167
+  - first:
+      213: -5896960053347469948
+    second: Hospital Room_168
+  - first:
+      213: 2430509964601881660
+    second: Hospital Room_169
+  - first:
+      213: -9102806248715580954
+    second: Hospital Room_170
+  - first:
+      213: -3938061933792488323
+    second: Hospital Room_171
+  - first:
+      213: -3198730074064032156
+    second: Hospital Room_172
+  - first:
+      213: -7414231550374173031
+    second: Hospital Room_173
+  - first:
+      213: -3948081593768720724
+    second: Hospital Room_174
+  - first:
+      213: -7058902378080789902
+    second: Hospital Room_175
+  - first:
+      213: 7742096600677655705
+    second: Hospital Room_176
+  - first:
+      213: -3130777378821552013
+    second: Hospital Room_177
+  - first:
+      213: -5568145259101545540
+    second: Hospital Room_178
+  - first:
+      213: 9159105293743763886
+    second: Hospital Room_179
+  - first:
+      213: 6075629676283368847
+    second: Hospital Room_180
+  - first:
+      213: -2207852770720039465
+    second: Hospital Room_181
+  - first:
+      213: 94262905851472819
+    second: Hospital Room_182
+  - first:
+      213: -7229875349757635293
+    second: Hospital Room_183
+  - first:
+      213: -2232212702119177029
+    second: Hospital Room_184
+  - first:
+      213: -2995127714298730170
+    second: Hospital Room_185
+  - first:
+      213: 1718810246849109930
+    second: Hospital Room_186
+  - first:
+      213: 8828524909779765079
+    second: Hospital Room_187
+  - first:
+      213: -3031076130413871545
+    second: Hospital Room_188
+  - first:
+      213: 4669745557550263113
+    second: Hospital Room_189
+  - first:
+      213: -1953027886768802747
+    second: Hospital Room_190
+  - first:
+      213: -9066881660168487990
+    second: Hospital Room_191
+  - first:
+      213: 8302139007671212489
+    second: Hospital Room_192
+  - first:
+      213: -6114301130282843758
+    second: Hospital Room_193
+  - first:
+      213: -3345636704310322689
+    second: Hospital Room_194
+  - first:
+      213: -4661172248461267651
+    second: Hospital Room_195
+  - first:
+      213: -1814242074879794685
+    second: Hospital Room_196
+  - first:
+      213: -4374850329724822698
+    second: Hospital Room_197
+  - first:
+      213: -3112276881118082237
+    second: Hospital Room_198
+  - first:
+      213: -7773231154880263365
+    second: Hospital Room_199
+  - first:
+      213: 5337030522247403108
+    second: Hospital Room_200
+  - first:
+      213: -5062114675932182975
+    second: Hospital Room_201
+  - first:
+      213: 4732457093017702084
+    second: Hospital Room_202
+  - first:
+      213: -4525481919202316059
+    second: Hospital Room_203
+  - first:
+      213: -6488509747825002688
+    second: Hospital Room_204
+  - first:
+      213: 1548794802975543341
+    second: Hospital Room_205
+  - first:
+      213: 3788440161088983142
+    second: Hospital Room_206
+  - first:
+      213: -434137172197917371
+    second: Hospital Room_207
+  - first:
+      213: 7935027166516923422
+    second: Hospital Room_208
+  - first:
+      213: 6100854491328671102
+    second: Hospital Room_209
+  - first:
+      213: 8244898259571692342
+    second: Hospital Room_210
+  - first:
+      213: -2632334614425334734
+    second: Hospital Room_211
+  - first:
+      213: 5654454294799807960
+    second: Hospital Room_212
+  - first:
+      213: -2403948921296466232
+    second: Hospital Room_213
+  - first:
+      213: -9142287494614937525
+    second: Hospital Room_214
+  - first:
+      213: 1585139753684515829
+    second: Hospital Room_215
+  - first:
+      213: -847423776510205027
+    second: Hospital Room_216
+  - first:
+      213: 5464954267619570637
+    second: Hospital Room_217
+  - first:
+      213: -7780191455085470106
+    second: Hospital Room_218
+  - first:
+      213: -1319291052758229183
+    second: Hospital Room_219
+  - first:
+      213: -919152449550277620
+    second: Hospital Room_220
+  - first:
+      213: 6947814486952017224
+    second: Hospital Room_221
+  - first:
+      213: -5351417187185784749
+    second: Hospital Room_222
+  - first:
+      213: 3995181774725657756
+    second: Hospital Room_223
+  - first:
+      213: 126218541591636265
+    second: Hospital Room_224
+  - first:
+      213: -5236263393580843370
+    second: Hospital Room_225
+  - first:
+      213: -1188558160606263759
+    second: Hospital Room_226
+  - first:
+      213: 8255701258636286553
+    second: Hospital Room_227
+  - first:
+      213: -8053417603849569084
+    second: Hospital Room_228
+  - first:
+      213: -1035625225887753656
+    second: Hospital Room_229
+  - first:
+      213: -4102643482496289540
+    second: Hospital Room_230
+  - first:
+      213: -1564506697381373901
+    second: Hospital Room_231
+  - first:
+      213: 5751883290254352271
+    second: Hospital Room_232
+  - first:
+      213: 3232464118066494385
+    second: Hospital Room_233
+  - first:
+      213: -3264160406636499326
+    second: Hospital Room_234
+  - first:
+      213: 3244075608158377343
+    second: Hospital Room_235
+  - first:
+      213: -5527372247876918024
+    second: Hospital Room_236
+  - first:
+      213: -8560427760999975701
+    second: Hospital Room_237
+  - first:
+      213: -6430702542751333421
+    second: Hospital Room_238
+  - first:
+      213: -7624216953776654472
+    second: Hospital Room_239
+  - first:
+      213: 9212818495830627097
+    second: Hospital Room_240
+  - first:
+      213: -2338322300529037256
+    second: Hospital Room_241
+  - first:
+      213: -6146209726737848836
+    second: Hospital Room_242
+  - first:
+      213: 7608264897717567579
+    second: Hospital Room_243
+  - first:
+      213: 2329740958406712891
+    second: Hospital Room_244
+  - first:
+      213: 4676842883122986925
+    second: Hospital Room_245
+  - first:
+      213: 447835912054258455
+    second: Hospital Room_246
+  - first:
+      213: 6794526332579018377
+    second: Hospital Room_247
+  - first:
+      213: -9208665750511466068
+    second: Hospital Room_248
+  - first:
+      213: 6763672228305739641
+    second: Hospital Room_249
+  - first:
+      213: -8987943244190933914
+    second: Hospital Room_250
+  - first:
+      213: -1663917820775403551
+    second: Hospital Room_251
+  - first:
+      213: 7945435151157705868
+    second: Hospital Room_252
+  - first:
+      213: 5079574053991162916
+    second: Hospital Room_253
+  - first:
+      213: -8752977743489842448
+    second: Hospital Room_254
+  - first:
+      213: 5647339371866335003
+    second: Hospital Room_255
+  - first:
+      213: 7044199667275060721
+    second: Hospital Room_256
+  - first:
+      213: 3951125088757331214
+    second: Hospital Room_257
+  - first:
+      213: 3071059721652164293
+    second: Hospital Room_258
+  - first:
+      213: 136562006966461784
+    second: Hospital Room_259
+  - first:
+      213: 2252170634548857612
+    second: Hospital Room_260
+  - first:
+      213: -7094841769089790199
+    second: Hospital Room_261
+  - first:
+      213: 3129208076787244488
+    second: Hospital Room_262
+  - first:
+      213: 4407397285652588546
+    second: Hospital Room_263
+  - first:
+      213: -7309839579512173348
+    second: Hospital Room_264
+  - first:
+      213: 6690625703273670693
+    second: Hospital Room_265
+  - first:
+      213: -8067057875828630365
+    second: Hospital Room_266
+  - first:
+      213: 4016130424819715540
+    second: Hospital Room_267
+  - first:
+      213: 2151401049186414743
+    second: Hospital Room_268
+  - first:
+      213: -1799543831028235892
+    second: Hospital Room_269
+  - first:
+      213: -8183720686173740039
+    second: Hospital Room_270
+  - first:
+      213: 8090622410267178091
+    second: Hospital Room_271
+  - first:
+      213: 5615761748245929064
+    second: Hospital Room_272
+  - first:
+      213: -5758233306024814583
+    second: Hospital Room_273
+  - first:
+      213: -627151007463837093
+    second: Hospital Room_274
+  - first:
+      213: 2216144097908953109
+    second: Hospital Room_275
+  - first:
+      213: -4138278019915617164
+    second: Hospital Room_276
+  - first:
+      213: 4901117245087105838
+    second: Hospital Room_277
+  - first:
+      213: -5056782813007524327
+    second: Hospital Room_278
+  - first:
+      213: -815521299508715823
+    second: Hospital Room_279
+  - first:
+      213: 5128202339732666252
+    second: Hospital Room_280
+  - first:
+      213: 7955828358929748641
+    second: Hospital Room_281
+  - first:
+      213: 3282455077477889770
+    second: Hospital Room_282
+  - first:
+      213: -6040993924072276216
+    second: Hospital Room_283
+  - first:
+      213: -1320516497368195269
+    second: Hospital Room_284
+  - first:
+      213: 2156834687834820703
+    second: Hospital Room_285
+  - first:
+      213: 3368311340380871326
+    second: Hospital Room_286
+  - first:
+      213: 1934836739438137474
+    second: Hospital Room_287
+  - first:
+      213: -9149576859739627455
+    second: Hospital Room_288
+  - first:
+      213: 2542504576812606695
+    second: Hospital Room_289
+  - first:
+      213: 2115181184042213507
+    second: Hospital Room_290
+  - first:
+      213: -7870910480643085307
+    second: Hospital Room_291
+  - first:
+      213: -8433527529579752100
+    second: Hospital Room_292
+  - first:
+      213: 7659768709414742591
+    second: Hospital Room_293
+  - first:
+      213: -3464073642640073854
+    second: Hospital Room_294
+  - first:
+      213: 1293879763333536012
+    second: Hospital Room_295
+  - first:
+      213: -19481809412007536
+    second: Hospital Room_296
+  - first:
+      213: 608216749889280703
+    second: Hospital Room_297
+  - first:
+      213: -7018754486708128728
+    second: Hospital Room_298
+  - first:
+      213: -3325245166655543908
+    second: Hospital Room_299
+  - first:
+      213: 1514780531259539753
+    second: Hospital Room_300
+  - first:
+      213: 3838267399751911572
+    second: Hospital Room_301
+  - first:
+      213: -3086350747297030862
+    second: Hospital Room_302
+  - first:
+      213: 2795528591572368643
+    second: Hospital Room_303
+  - first:
+      213: -368418707762036723
+    second: Hospital Room_304
+  - first:
+      213: 5285358103014882670
+    second: Hospital Room_305
+  - first:
+      213: -9216223636850275250
+    second: Hospital Room_306
+  - first:
+      213: -7011394419252114527
+    second: Hospital Room_307
+  - first:
+      213: -4336854325222444997
+    second: Hospital Room_308
+  - first:
+      213: 4270699485189419185
+    second: Hospital Room_309
+  - first:
+      213: -7634292740428860221
+    second: Hospital Room_310
+  - first:
+      213: -788866842973871492
+    second: Hospital Room_311
+  - first:
+      213: -5698229557752575714
+    second: Hospital Room_312
+  - first:
+      213: -1027030269611976268
+    second: Hospital Room_313
+  - first:
+      213: 8918280665035811786
+    second: Hospital Room_314
+  - first:
+      213: -8249559595013759310
+    second: Hospital Room_315
+  - first:
+      213: 6998296966510364091
+    second: Hospital Room_316
+  - first:
+      213: 6315182654279482313
+    second: Hospital Room_317
+  - first:
+      213: -3110288741367310566
+    second: Hospital Room_318
+  - first:
+      213: -70366645585422846
+    second: Hospital Room_319
+  - first:
+      213: -5295934707296633697
+    second: Hospital Room_320
+  - first:
+      213: -6221430697676111069
+    second: Hospital Room_321
+  - first:
+      213: 6586860172483858086
+    second: Hospital Room_322
+  - first:
+      213: -6231588886126579320
+    second: Hospital Room_323
+  - first:
+      213: 9039422348460601017
+    second: Hospital Room_324
+  - first:
+      213: -6482253393306198666
+    second: Hospital Room_325
+  - first:
+      213: -8462035996293999072
+    second: Hospital Room_326
+  - first:
+      213: 415657585395870481
+    second: Hospital Room_327
+  - first:
+      213: -4034052805168171619
+    second: Hospital Room_328
+  - first:
+      213: -9162834853330702865
+    second: Hospital Room_329
+  - first:
+      213: 1286349459047102385
+    second: Hospital Room_330
+  - first:
+      213: 8927835969781153649
+    second: Hospital Room_331
+  - first:
+      213: -3146212474434367082
+    second: Hospital Room_332
+  - first:
+      213: -5617561379491253086
+    second: Hospital Room_333
+  - first:
+      213: -3889267633236481155
+    second: Hospital Room_334
+  - first:
+      213: -4279239629089330157
+    second: Hospital Room_335
+  - first:
+      213: -670745129787646534
+    second: Hospital Room_336
+  - first:
+      213: -954806557890986035
+    second: Hospital Room_337
+  - first:
+      213: 3435691892425383787
+    second: Hospital Room_338
+  - first:
+      213: 1878726852798508205
+    second: Hospital Room_339
+  - first:
+      213: -2948940891879910125
+    second: Hospital Room_340
+  - first:
+      213: -2708937894389260039
+    second: Hospital Room_341
+  - first:
+      213: -7880942057330078624
+    second: Hospital Room_342
+  - first:
+      213: -3979286246936324596
+    second: Hospital Room_343
+  - first:
+      213: 6715969418761167053
+    second: Hospital Room_344
+  - first:
+      213: 1526377783134931750
+    second: Hospital Room_345
+  - first:
+      213: -6784528840503587797
+    second: Hospital Room_346
+  - first:
+      213: 1443377071873252867
+    second: Hospital Room_347
+  - first:
+      213: -9178711996779158317
+    second: Hospital Room_348
+  - first:
+      213: -980790753106657411
+    second: Hospital Room_349
+  - first:
+      213: 5650813815377784695
+    second: Hospital Room_350
+  - first:
+      213: -662224874023178950
+    second: Hospital Room_351
+  - first:
+      213: 1325471652727715505
+    second: Hospital Room_352
+  - first:
+      213: 6805663469200891791
+    second: Hospital Room_353
+  - first:
+      213: 135124969297113766
+    second: Hospital Room_354
+  - first:
+      213: 106599413571135567
+    second: Hospital Room_355
+  - first:
+      213: 3729268144929540409
+    second: Hospital Room_356
+  - first:
+      213: 2776306260522726511
+    second: Hospital Room_357
+  - first:
+      213: 4587439050463926585
+    second: Hospital Room_358
+  - first:
+      213: -3520220248421973679
+    second: Hospital Room_359
+  - first:
+      213: 1183748425735001321
+    second: Hospital Room_360
+  - first:
+      213: -8327487000484233371
+    second: Hospital Room_361
+  - first:
+      213: -4456096559628158386
+    second: Hospital Room_362
+  - first:
+      213: -1390879345281776624
+    second: Hospital Room_363
+  - first:
+      213: -2068604450703967386
+    second: Hospital Room_364
+  - first:
+      213: -8612567036190163751
+    second: Hospital Room_365
+  - first:
+      213: 179954423525638019
+    second: Hospital Room_366
+  - first:
+      213: 6651254465503372761
+    second: Hospital Room_367
+  - first:
+      213: -5299929788160606251
+    second: Hospital Room_368
+  - first:
+      213: -7908208717374579669
+    second: Hospital Room_369
+  - first:
+      213: -8883583980311166036
+    second: Hospital Room_370
+  - first:
+      213: 5212347134464843161
+    second: Hospital Room_371
+  - first:
+      213: -8799224777276064150
+    second: Hospital Room_372
+  - first:
+      213: -7851435146765144581
+    second: Hospital Room_373
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 40
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Hospital Room_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 260
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63a6cbb116e927030800000000000000
+      internalID: 3491026801079904822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital Room_1
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 260
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2170d2035af89e10800000000000000
+      internalID: 2204787252034302253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital Room_2
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 260
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50e5e66dd5be00c10800000000000000
+      internalID: 2017871421324025349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital Room_3
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 260
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d9d9100c78035170800000000000000
+      internalID: 8165879878023502294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital Room_4
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 260
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4978879bbbe20da80800000000000000
+      internalID: -8444197917514233964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital Room_5
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 260
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9008efda3a73a2060800000000000000
+      internalID: 6929412152801263625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital Room_6
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 260
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7253eda3304bbbeb0800000000000000
+      internalID: -4702967459892808409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital Room_7
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 260
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72c099eb6f13d8920800000000000000
+      internalID: 2994104263100664871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital Room_8
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 260
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c58d6ff0faef4440800000000000000
+      internalID: 4922411238537659840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital Room_9
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 260
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e36d33a8ca7996950800000000000000
+      internalID: 6442847509239027262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital Room_10
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 260
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cfb4f074192f39f0800000000000000
+      internalID: -486625066961551420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital Room_11
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 260
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 164ed4f0bf4fead90800000000000000
+      internalID: -7084455804676479903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital Room_12
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 260
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7aa8e8b6bc81c310800000000000000
+      internalID: 1423573673639979647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital Room_13
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 260
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e116b7683ada39290800000000000000
+      internalID: -7884767604748099298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital Room_14
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 260
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd2852e7a50e0a7f0800000000000000
+      internalID: -603235670799580451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital Room_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 220
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51a57eb60875a17a0800000000000000
+      internalID: -6405711310903354859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital Room_16
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 220
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be48a842cb3d045f0800000000000000
+      internalID: -774386330887355157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital Room_17
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 220
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 011d16ada4af4e490800000000000000
+      internalID: -7717768662007820016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital Room_18
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 220
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ee2815325e50ed70800000000000000
+      internalID: 9070353356695285481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital Room_19
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 220
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b03ba7330c62b10b0800000000000000
+      internalID: -5756965091723791605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital Room_20
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 220
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf0357f00bb8847e0800000000000000
+      internalID: -1781020064335187716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital Room_21
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 220
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 722f9a51fa9bd1600800000000000000
+      internalID: 440712500186051111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital Room_22
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 220
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a3ccb48b2c2258c0800000000000000
+      internalID: -4012095752611511386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital Room_23
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 220
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4188e56621130d20800000000000000
+      internalID: 3243455013253054797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital Room_24
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 220
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20a950bda73920110800000000000000
+      internalID: 1225704204468066818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital Room_25
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 220
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05b62ee63ebb4e9e0800000000000000
+      internalID: -1592941782690010288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital Room_26
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 220
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b997bd2aa3edfdb0800000000000000
+      internalID: -4756395311382423117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital Room_27
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 220
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce797e0975a376f60800000000000000
+      internalID: 8027449008578861036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital Room_28
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 220
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ea10ae58db00d1b0800000000000000
+      internalID: -5633990109912098080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital Room_29
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 220
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf1ce2fc781dfaf90800000000000000
+      internalID: -6940098119527906821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital Room_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 180
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: addc48a3563b35ab0800000000000000
+      internalID: -5020471912233120294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital Room_31
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 180
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 449ab20399a255110800000000000000
+      internalID: 1248951309091711300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital Room_32
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 180
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9222f35b64d23e70800000000000000
+      internalID: 9093564155049419420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital Room_33
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 180
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0baa5730fcf200180800000000000000
+      internalID: -9151261876654069072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital Room_34
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 180
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe4a340adec00fbd0800000000000000
+      internalID: -2598562770257206033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital Room_35
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 180
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c1d0109fc1656e60800000000000000
+      internalID: 7954871860922995137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital Room_36
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 180
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e61521d29e2434b40800000000000000
+      internalID: 5423251945535197550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital Room_37
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 180
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aad09dec1a38a8c50800000000000000
+      internalID: 6668286929258745258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital Room_38
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 180
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfd145a9656d47be0800000000000000
+      internalID: -1480322710053315075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital Room_39
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 180
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75fe8a81db8a48090800000000000000
+      internalID: -8033110305206112425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital Room_40
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 180
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 900fbd83cfac49f30800000000000000
+      internalID: 4581509905577144329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital Room_41
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 180
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9848acbb25b17a40800000000000000
+      internalID: 5364267830628337823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital Room_42
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 180
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9f5f0383b22d5d70800000000000000
+      internalID: 9033414581968396188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital Room_43
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 180
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df9d9ed074b24ba30800000000000000
+      internalID: 4230053534183840253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital Room_44
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 180
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ba06540e052e0020800000000000000
+      internalID: 2309824401020160691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital Room_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 140
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e712ffc4871be6060800000000000000
+      internalID: 6948686405325234558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital Room_46
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 140
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35690277551075f70800000000000000
+      internalID: 9175804232373147219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital Room_47
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 140
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c2008084edee8440800000000000000
+      internalID: 4940147406936212164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital Room_48
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 140
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c87191e5271b09570800000000000000
+      internalID: 8471466003846993804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital Room_49
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 140
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea9e1597784637cc0800000000000000
+      internalID: -3714514734631753298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital Room_50
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 140
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dad39f18e2a032ca0800000000000000
+      internalID: -6042975080135705171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital Room_51
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 140
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a87ab3d866fa43ce0800000000000000
+      internalID: -1426322326978582646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital Room_52
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 140
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31f809758e6b33bd0800000000000000
+      internalID: -2651574646573330669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital Room_53
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 140
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d58bb7c4fa802610800000000000000
+      internalID: 1594427052016764368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital Room_54
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 140
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07639fc2eee840990800000000000000
+      internalID: -7420649132391844240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital Room_55
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 140
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df810eb022a969ff0800000000000000
+      internalID: -29666876512528131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital Room_56
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 140
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36b1e15f7a3e38780800000000000000
+      internalID: -8681845346128749725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital Room_57
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 140
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ace93461ffdfcc160800000000000000
+      internalID: 7047286788960001738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital Room_58
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 140
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8170b5f687133c0f0800000000000000
+      internalID: -1097979490814195944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital Room_59
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 140
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49119a2ab227097b0800000000000000
+      internalID: -5219546436384255596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital Room_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 100
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2e2e7727a1ac8a60800000000000000
+      internalID: 7677689204054044205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital Room_61
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 100
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bfe78cd9229894c0800000000000000
+      internalID: -4280510737324445775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital Room_62
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 100
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f46927246c501080800000000000000
+      internalID: -9218766852003896073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital Room_63
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 100
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47f8e254e1a1b11b0800000000000000
+      internalID: -5684921387313098892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital Room_64
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 100
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 678b7a2353ec5efd0800000000000000
+      internalID: -2313216105706440586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital Room_65
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 100
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c5a78535770f2ca0800000000000000
+      internalID: -6039600375289895483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital Room_66
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 100
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d872f6fe40aa19630800000000000000
+      internalID: 3932110887844784013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital Room_67
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 100
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6adfbd36780f50a20800000000000000
+      internalID: 3028090788763139494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital Room_68
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 100
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daed23471db162100800000000000000
+      internalID: 82784229564538541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital Room_69
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 100
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5ee062a4af6c4e70800000000000000
+      internalID: 9100771699898510940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital Room_70
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 100
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a92d17b2152810690800000000000000
+      internalID: -7637680207910808934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital Room_71
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 100
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06aaa8d22ebb695e0800000000000000
+      internalID: -1903127212416390560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital Room_72
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 100
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ff268d67c8f0a970800000000000000
+      internalID: 8764278410282676210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital Room_73
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 100
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bc1157500a9681f0800000000000000
+      internalID: -1042976937434080075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital Room_74
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 100
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dfd951c3955e1de0800000000000000
+      internalID: -1360555944326864940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital Room_75
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 60
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ba10928bed553470800000000000000
+      internalID: 8373702348254485172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital Room_76
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 60
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 675504f527b9ce2e0800000000000000
+      internalID: -2095128811107494538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital Room_77
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 60
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 766bbe63bc4a82780800000000000000
+      internalID: -8707528686814120345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital Room_78
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 60
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cde544b8cb31746e0800000000000000
+      internalID: -1853491021128376612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital Room_79
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 60
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dd7aec099bebab80800000000000000
+      internalID: -8382347238840828461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital Room_80
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 60
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06be2f94a522757c0800000000000000
+      internalID: -4082756766005007520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital Room_81
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 60
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b689875261840a50800000000000000
+      internalID: 6486451622695765689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital Room_82
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 60
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 290f2ead00a98b9e0800000000000000
+      internalID: -1605363938694598510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital Room_83
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 60
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18d74b3c3c978b9f0800000000000000
+      internalID: -452477880841765503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital Room_84
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 60
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79e720a5de37ee7c0800000000000000
+      internalID: -4040164352450199913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital Room_85
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 60
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ab52d12591bd9940800000000000000
+      internalID: 5304591190187989921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital Room_86
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 60
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ea4de039c84beec0800000000000000
+      internalID: -3536653053422908696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital Room_87
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 60
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed4f5680555a131e0800000000000000
+      internalID: -2219811356685241122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital Room_88
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 60
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c76dcab96f4f62e0800000000000000
+      internalID: -2130396783198771258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital Room_89
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 60
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35f3bc3afbf650220800000000000000
+      internalID: 2451488441050546003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital Room_90
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 20
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 362847912b8961350800000000000000
+      internalID: 5987140645334319715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital Room_91
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 20
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78d48ea9ec400dfb0800000000000000
+      internalID: -4625191531900809849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital Room_92
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 20
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 946e820f88250a810800000000000000
+      internalID: 1774509001282217545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital Room_93
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 20
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70baa1a6380c55d40800000000000000
+      internalID: 5572571784594238215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital Room_94
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 20
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39a26c8a2e0dba820800000000000000
+      internalID: 2930665654447385235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital Room_95
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 20
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: accb6f2c16fbed4f0800000000000000
+      internalID: -801993257021686582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital Room_96
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 20
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee67c9f193b970530800000000000000
+      internalID: 3821193478492944110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital Room_97
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 20
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d75f2bbc05597fe0800000000000000
+      internalID: -1190827113294374956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital Room_98
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 20
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6e70fa19e9188f00800000000000000
+      internalID: 1119172996371611247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital Room_99
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 20
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5debd2c7cf51dc1e0800000000000000
+      internalID: -2176058870790766891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital Room_100
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 20
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59623bd5c319a9820800000000000000
+      internalID: 2925810596386645653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital Room_101
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 20
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c182f275b42b469e0800000000000000
+      internalID: -1628981128546277348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital Room_102
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 20
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44579041c42643090800000000000000
+      internalID: -8055705754565774012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hospital Room_103
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 20
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c649fd45977a886f0800000000000000
+      internalID: -682111203989810068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
