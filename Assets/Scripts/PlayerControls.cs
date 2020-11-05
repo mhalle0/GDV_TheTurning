@@ -5,8 +5,15 @@ using UnityEngine;
 public class PlayerControls : MonoBehaviour
 {
     public float speed = 5f;
+    Vector2 movement;
+
+    public Rigidbody2D rb;
+    public Animator animator;
+
     private float humanity = 100;   // how much humanity you start w/
     private float zombificationRate = 1f; // rate that you turn into a zombie
+    
+    public int pillCount;
 
     [SerializeField] private TurningMechanic turning;
 
@@ -15,14 +22,30 @@ public class PlayerControls : MonoBehaviour
     void Start()
     {
         turning.SetSize((float)(humanity * 0.01));
+        pillCount = 30;
     }
 
     // Update is called once per frame
     void Update()
     {
-        float horizontalInput = Input.GetAxis("Horizontal");
-        float verticalInput = Input.GetAxis("Vertical");
-        transform.position = transform.position + new Vector3(horizontalInput * speed * Time.deltaTime, verticalInput * speed * Time.deltaTime, 0);
+        movement.x = Input.GetAxisRaw("Horizontal");
+        movement.y = Input.GetAxisRaw("Vertical");
+
+        animator.SetFloat("Horizontal", movement.x);
+        animator.SetFloat("Vertical", movement.y);
+        
+        if(movement.sqrMagnitude == 0){
+            animator.SetBool("isMoving", false);
+        } else {
+            animator.SetBool("isMoving", true);
+        }
+
+
+    }
+
+    void FixedUpdate(){
+        
+        rb.MovePosition(rb.position + movement * speed * Time.fixedDeltaTime);
 
         turning.SetSize((float)(humanity * 0.01));
 
@@ -35,15 +58,10 @@ public class PlayerControls : MonoBehaviour
             DoorBehavior door = collision.gameObject.GetComponent<DoorBehavior>();
             transform.position = door.getNewLocation();
         }
-        //else if ("Pill".Equals(collision.gameObject.tag))
-        //{
-        //    PillBehavior pill = collision.gameObject.GetComponent<DoorBehavior>();
-        //    Debug.Log("Got an inventory item");
-        //}
         else if ("InvItem".Equals(collision.gameObject.tag))
         {
             InvItemBehavior item = collision.gameObject.GetComponent<InvItemBehavior>();
-            if(collision.gameObject.name == "PillBottle") item.pickUp("pillBottle");
+            if(collision.gameObject.name == "MapPillBottle") item.pickUp("pillBottle");
             else if(collision.gameObject.name == "CureList") item.pickUp("cureList");
             else if(collision.gameObject.name == "Ingredient1") item.pickUp("ingredient1");
             else if(collision.gameObject.name == "Ingredient2") item.pickUp("ingredient2");
@@ -58,8 +76,13 @@ public class PlayerControls : MonoBehaviour
 
     public void TakePill()
     {
+        pillCount -= 1;
         humanity += 5;
         if (humanity > 100)
             humanity = 100;
+    }
+
+    public void RefillPills(){
+        pillCount += 30;
     }
 }

@@ -2,9 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class InvItemBehavior : MonoBehaviour
 {
+
+    [SerializeField] private PlayerControls player;
+
     GameObject mapIngredient1;
     GameObject slotIngredient1;
     GameObject mapIngredient2;
@@ -13,11 +17,13 @@ public class InvItemBehavior : MonoBehaviour
     GameObject slotIngredient3;
     GameObject mapIngredient4;
     GameObject slotIngredient4;
+    GameObject mapPillBottle;
     
     public void pickUp(string itemID){
         if(itemID == "pillBottle"){
             Debug.Log("Picked up pills");
-            //add to inventory pill count, remove item from map
+            player.RefillPills();
+            mapPillBottle.SetActive(false);
         }
         else if (itemID == "cureList"){
             Debug.Log("Picked up cure list");
@@ -58,6 +64,8 @@ public class InvItemBehavior : MonoBehaviour
         mapIngredient4 = GameObject.Find("Ingredient4");
         slotIngredient4 = GameObject.Find("InvSlot4");
         slotIngredient4.GetComponent<Image>().enabled = false;
+
+        mapPillBottle = GameObject.Find("MapPillBottle");
     }
 
     // Update is called once per frame

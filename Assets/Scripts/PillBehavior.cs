@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 
 public class PillBehavior : MonoBehaviour
@@ -10,13 +11,14 @@ public class PillBehavior : MonoBehaviour
 
     void Awake()
     {
-        
+
     }
 
     public void OnMouseDown()
     {
-        Debug.Log("got mouse click");
-        player.TakePill();
+        if(player.pillCount > 0){
+            player.TakePill();
+        }
     }
 
 

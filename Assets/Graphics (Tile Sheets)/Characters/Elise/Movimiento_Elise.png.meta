@@ -1,7 +1,151 @@
 fileFormatVersion: 2
 guid: 5158cbb8127804dbeb8bbba20ef3b1ed
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 6480464491635421150
+    second: Elise_Walk_Back_1
+  - first:
+      213: 1543287366381117083
+    second: Elise_Walk_Back_2
+  - first:
+      213: 7327676310647368580
+    second: Elise_Walk_Back_3
+  - first:
+      213: -4076310382510093164
+    second: Elise_Walk_Back_4
+  - first:
+      213: -546774142448291931
+    second: Elise_Walk_Back_5
+  - first:
+      213: -6229597053604549734
+    second: Elise_Walk_Back_6
+  - first:
+      213: 3962614301075587991
+    second: Elise_Walk_Back_7
+  - first:
+      213: -7122050945003360468
+    second: Elise_Walk_Back_8
+  - first:
+      213: -1809419839174240385
+    second: Elise_Walk_Back_9
+  - first:
+      213: 2251187541857953841
+    second: Elise_Walk_Back_10
+  - first:
+      213: 3532981686924046964
+    second: Elise_Walk_Back_11
+  - first:
+      213: -1858739084396024194
+    second: Elise_Walk_Back_12
+  - first:
+      213: 8514908640956310927
+    second: Elise_Walk_Front_1
+  - first:
+      213: 6440092521049022461
+    second: Elise_Walk_Front_2
+  - first:
+      213: -1684045043893571985
+    second: Elise_Walk_Front_3
+  - first:
+      213: -7446493627983706517
+    second: Elise_Walk_Front_4
+  - first:
+      213: 5516219800015501054
+    second: Elise_Walk_Front_5
+  - first:
+      213: -3563475264169718419
+    second: Elise_Walk_Front_6
+  - first:
+      213: -3461789280991863356
+    second: Elise_Walk_Front_7
+  - first:
+      213: 8193167562308316170
+    second: Elise_Walk_Front_8
+  - first:
+      213: 5994246120181365363
+    second: Elise_Walk_Front_9
+  - first:
+      213: 5010725438684383495
+    second: Elise_Walk_Front_10
+  - first:
+      213: -2640320983378503687
+    second: Elise_Walk_Front_11
+  - first:
+      213: 7875458062895701127
+    second: Elise_Walk_Front_12
+  - first:
+      213: 3783541782382018994
+    second: Elise_Walk_Left_1
+  - first:
+      213: -4948735964209945569
+    second: Elise_Walk_Left_2
+  - first:
+      213: 7368882789981937563
+    second: Elise_Walk_Left_3
+  - first:
+      213: -5335041747133463605
+    second: Elise_Walk_Left_4
+  - first:
+      213: -1737525290130724072
+    second: Elise_Walk_Left_5
+  - first:
+      213: 3771827322720964412
+    second: Elise_Walk_Left_6
+  - first:
+      213: 8362774706985656767
+    second: Elise_Walk_Left_7
+  - first:
+      213: -1242178484521976482
+    second: Elise_Walk_Left_8
+  - first:
+      213: 8670428170766166584
+    second: Elise_Walk_Left_9
+  - first:
+      213: -5219164028397323530
+    second: Elise_Walk_Left_10
+  - first:
+      213: 5178758749484225675
+    second: Elise_Walk_Left_11
+  - first:
+      213: 1397891283146149847
+    second: Elise_Walk_Left_12
+  - first:
+      213: 6119204748160229081
+    second: Elise_Walk_Right_1
+  - first:
+      213: 7932679761831872631
+    second: Elise_Walk_Right_2
+  - first:
+      213: -1637875331724826486
+    second: Elise_Walk_Right_3
+  - first:
+      213: 2832139896723584767
+    second: Elise_Walk_Right_4
+  - first:
+      213: -713326803816925212
+    second: Elise_Walk_Right_5
+  - first:
+      213: -1247531411805838899
+    second: Elise_Walk_Right_6
+  - first:
+      213: 2051814579816055212
+    second: Elise_Walk_Right_7
+  - first:
+      213: -7800035727130942850
+    second: Elise_Walk_Right_8
+  - first:
+      213: -7278186677936500462
+    second: Elise_Walk_Right_9
+  - first:
+      213: -8538489188418142131
+    second: Elise_Walk_Right_10
+  - first:
+      213: 5509897159965884305
+    second: Elise_Walk_Right_11
+  - first:
+      213: -7907182899288317209
+    second: Elise_Walk_Right_12
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -32,7 +176,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -41,12 +185,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 34
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -66,7 +210,19 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -75,7 +231,1015 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Elise_Walk_Back_1
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 108
+        width: 8
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edf2673ce1c3fe950800000000000000
+      internalID: 6480464491635421150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elise_Walk_Back_2
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 108
+        width: 8
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9e9e7bdeabda6510800000000000000
+      internalID: 1543287366381117083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elise_Walk_Back_3
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 106
+        width: 9
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48b6e25e7c221b560800000000000000
+      internalID: 7327676310647368580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elise_Walk_Back_4
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 106
+        width: 9
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49ccf38ed490e67c0800000000000000
+      internalID: -4076310382510093164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elise_Walk_Back_5
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 106
+        width: 9
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5af200b70d77968f0800000000000000
+      internalID: -546774142448291931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elise_Walk_Back_6
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 107
+        width: 11
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9ba41e4c760c89a0800000000000000
+      internalID: -6229597053604549734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elise_Walk_Back_7
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 108
+        width: 9
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7934e7546b80ef630800000000000000
+      internalID: 3962614301075587991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elise_Walk_Back_8
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 109
+        width: 8
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2fe6d65664692d90800000000000000
+      internalID: -7122050945003360468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elise_Walk_Back_9
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 106
+        width: 10
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7799743e36a3e6e0800000000000000
+      internalID: -1809419839174240385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elise_Walk_Back_10
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 106
+        width: 8
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1386a3b5423dd3f10800000000000000
+      internalID: 2251187541857953841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elise_Walk_Back_11
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 106
+        width: 9
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 472711f202ca70130800000000000000
+      internalID: 3532981686924046964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elise_Walk_Back_12
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 107
+        width: 7
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7ea07896ae6436e0800000000000000
+      internalID: -1858739084396024194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elise_Walk_Front_1
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 71
+        width: 9
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f85ea178b480b2670800000000000000
+      internalID: 8514908640956310927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elise_Walk_Front_2
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 74
+        width: 9
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dffd6cdd60ecf5950800000000000000
+      internalID: 6440092521049022461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elise_Walk_Front_3
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 73
+        width: 8
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6e67fc74f111a8e0800000000000000
+      internalID: -1684045043893571985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elise_Walk_Front_4
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 74
+        width: 8
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6642d1af7db8a890800000000000000
+      internalID: -7446493627983706517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elise_Walk_Front_5
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 73
+        width: 8
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef676e29eac8d8c40800000000000000
+      internalID: 5516219800015501054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elise_Walk_Front_6
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 70
+        width: 11
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6dc549902efb8ec0800000000000000
+      internalID: -3563475264169718419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elise_Walk_Front_7
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 71
+        width: 9
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cd99338df045ffc0800000000000000
+      internalID: -3461789280991863356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elise_Walk_Front_8
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 74
+        width: 9
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0ce3a81d7af3b170800000000000000
+      internalID: 8193167562308316170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elise_Walk_Front_9
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 75
+        width: 8
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37a7ca16617df2350800000000000000
+      internalID: 5994246120181365363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elise_Walk_Front_10
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 74
+        width: 8
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 709cbcf0d3ca98540800000000000000
+      internalID: 5010725438684383495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elise_Walk_Front_11
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 73
+        width: 10
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f7d6bcfd02bb5bd0800000000000000
+      internalID: -2640320983378503687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elise_Walk_Front_12
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 70
+        width: 8
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78c526ad16f3b4d60800000000000000
+      internalID: 7875458062895701127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elise_Walk_Left_1
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 38
+        width: 13
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b18abb7437d18430800000000000000
+      internalID: 3783541782382018994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elise_Walk_Left_2
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 38
+        width: 12
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f14e01e2cde825bb0800000000000000
+      internalID: -4948735964209945569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elise_Walk_Left_3
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 39
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9fdc500bd7834660800000000000000
+      internalID: 7368882789981937563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elise_Walk_Left_4
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 39
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc30b381ccf16f5b0800000000000000
+      internalID: -5335041747133463605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elise_Walk_Left_5
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 38
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81b208554f113e7e0800000000000000
+      internalID: -1737525290130724072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elise_Walk_Left_6
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 37
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3f45ec47f8385430800000000000000
+      internalID: 3771827322720964412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elise_Walk_Left_7
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 37
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb16082c94b8e0470800000000000000
+      internalID: 8362774706985656767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elise_Walk_Left_8
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 37
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5d3f6aef35e2cee0800000000000000
+      internalID: -1242178484521976482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elise_Walk_Left_9
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 37
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83aae01cb7c835870800000000000000
+      internalID: 8670428170766166584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elise_Walk_Left_10
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 40
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fa71eee7fdc197b0800000000000000
+      internalID: -5219164028397323530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elise_Walk_Left_11
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 39
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b841478f4a5aed740800000000000000
+      internalID: 5178758749484225675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elise_Walk_Left_12
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 39
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7df8a8637be466310800000000000000
+      internalID: 1397891283146149847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elise_Walk_Right_1
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 4
+        width: 13
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9de59f92c48cbe450800000000000000
+      internalID: 6119204748160229081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elise_Walk_Right_2
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 4
+        width: 12
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7784be8d63a861e60800000000000000
+      internalID: 7932679761831872631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elise_Walk_Right_3
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 5
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a88aa2a40191549e0800000000000000
+      internalID: -1637875331724826486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elise_Walk_Right_4
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 5
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff6bb621b38cd4720800000000000000
+      internalID: 2832139896723584767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elise_Walk_Right_5
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 4
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e73ab12d01c916f0800000000000000
+      internalID: -713326803816925212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elise_Walk_Right_6
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 3
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc1eb296ac0efaee0800000000000000
+      internalID: -1247531411805838899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elise_Walk_Right_7
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 3
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca147e64d72897c10800000000000000
+      internalID: 2051814579816055212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elise_Walk_Right_8
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 3
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e72210125d4b0c390800000000000000
+      internalID: -7800035727130942850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elise_Walk_Right_9
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 3
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2115d9427cfaefa90800000000000000
+      internalID: -7278186677936500462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elise_Walk_Right_10
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 6
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d40c2dd6251318980800000000000000
+      internalID: -8538489188418142131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elise_Walk_Right_11
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 5
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19f33b83646177c40800000000000000
+      internalID: 5509897159965884305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elise_Walk_Right_12
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 5
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e260e11c0b044290800000000000000
+      internalID: -7907182899288317209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
