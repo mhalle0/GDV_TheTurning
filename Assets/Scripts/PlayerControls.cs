@@ -70,7 +70,7 @@ public class PlayerControls : MonoBehaviour
             Debug.Log("Got an inventory item");
         }
         else {
-            Debug.Log("(PLAYER): Warning, collided with untagged object");
+            Debug.Log("(PLAYER): Notice- Collided with object with unprocessed tag. Object Name: \"" + collision.gameObject.name + "\"   Object Tag: \"" + collision.gameObject.tag + "\"");
         }
     }
 
