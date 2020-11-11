@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
 
 public class PlayerControls : MonoBehaviour
 {
@@ -63,11 +65,21 @@ public class PlayerControls : MonoBehaviour
             InvItemBehavior item = collision.gameObject.GetComponent<InvItemBehavior>();
             if(collision.gameObject.name == "MapPillBottle") item.pickUp("pillBottle");
             else if(collision.gameObject.name == "CureList") item.pickUp("cureList");
-            else if(collision.gameObject.name == "Ingredient1") item.pickUp("ingredient1");
-            else if(collision.gameObject.name == "Ingredient2") item.pickUp("ingredient2");
-            else if(collision.gameObject.name == "Ingredient3") item.pickUp("ingredient3");
-            else if(collision.gameObject.name == "Ingredient4") item.pickUp("ingredient4");
-            Debug.Log("Got an inventory item");
+            else
+            {
+                // pull up puzzle attached to item -> scene change
+                // result = win or lose
+                // if (win)
+                //    item.pickUp
+                SceneManager.LoadScene(item.puzzle);
+                Debug.Log("loading the scene, or trying to");
+            }
+
+            //else if(collision.gameObject.name == "Ingredient1") item.pickUp("ingredient1");
+            //else if(collision.gameObject.name == "Ingredient2") item.pickUp("ingredient2");
+            //else if(collision.gameObject.name == "Ingredient3") item.pickUp("ingredient3");
+            //else if(collision.gameObject.name == "Ingredient4") item.pickUp("ingredient4");
+            //Debug.Log("Got an inventory item");
         }
         else {
             Debug.Log("(PLAYER): Warning, collided with untagged object");

@@ -18,6 +18,8 @@ public class InvItemBehavior : MonoBehaviour
     GameObject mapIngredient4;
     GameObject slotIngredient4;
     GameObject mapPillBottle;
+
+    [SerializeField] public string puzzle;
     
     public void pickUp(string itemID){
         if(itemID == "pillBottle"){
