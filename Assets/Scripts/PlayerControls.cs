@@ -17,14 +17,17 @@ public class PlayerControls : MonoBehaviour
     
     public int pillCount;
 
-    [SerializeField] private TurningMechanic turning;
+    public bool hasCure;
 
+    [SerializeField] private TurningMechanic turning;
+    [SerializeField] private LabBenchBehavior bench;
 
     // Start is called before the first frame update
     void Start()
     {
         turning.SetSize((float)(humanity * 0.01));
         pillCount = 30;
+        hasCure = false;
     }
 
     // Update is called once per frame
@@ -80,6 +83,9 @@ public class PlayerControls : MonoBehaviour
             //else if(collision.gameObject.name == "Ingredient3") item.pickUp("ingredient3");
             //else if(collision.gameObject.name == "Ingredient4") item.pickUp("ingredient4");
             //Debug.Log("Got an inventory item");
+        }
+        else if("LabBench".Equals(collision.gameObject.tag)) {
+            bench.makeCure();
         }
         else {
             Debug.Log("(PLAYER): Notice- Collided with object with unprocessed tag. Object Name: \"" + collision.gameObject.name + "\"   Object Tag: \"" + collision.gameObject.tag + "\"");
