@@ -62,7 +62,12 @@ public class PlayerControls : MonoBehaviour
         if ("Teleport".Equals(collision.gameObject.tag))
         {
             DoorBehavior door = collision.gameObject.GetComponent<DoorBehavior>();
-            transform.position = door.getNewLocation();
+            if (!door.isLocked) transform.position = door.getNewLocation();
+            else Debug.Log("The door is locked!");
+            if (door.isUnlockTrigger) {
+                door.unlockOtherDoor();
+                Debug.Log("Unlocked Other Door(s)!");
+            }
         }
         else if ("InvItem".Equals(collision.gameObject.tag))
         {
