@@ -21,6 +21,7 @@ public class PlayerControls : MonoBehaviour
 
     [SerializeField] private TurningMechanic turning;
     [SerializeField] private LabBenchBehavior bench;
+    [SerializeField] private SceneMan SceneMan; 
 
     // Start is called before the first frame update
     void Start()
@@ -68,20 +69,15 @@ public class PlayerControls : MonoBehaviour
             InvItemBehavior item = collision.gameObject.GetComponent<InvItemBehavior>();
             if(collision.gameObject.name == "MapPillBottle") item.pickUp("pillBottle");
             else if(collision.gameObject.name == "CureList") item.pickUp("cureList");
-            else
+            else if(item.puzzle != null)
             {
-                // pull up puzzle attached to item -> scene change
-                // result = win or lose
-                // if (win)
-                //    item.pickUp
-                SceneManager.LoadScene(item.puzzle);
-                Debug.Log("loading the scene, or trying to");
+                SceneMan.ActivatePuzzle(item.puzzle);
             }
 
-            //else if(collision.gameObject.name == "Ingredient1") item.pickUp("ingredient1");
-            //else if(collision.gameObject.name == "Ingredient2") item.pickUp("ingredient2");
-            //else if(collision.gameObject.name == "Ingredient3") item.pickUp("ingredient3");
-            //else if(collision.gameObject.name == "Ingredient4") item.pickUp("ingredient4");
+            if(collision.gameObject.name == "Ingredient1") item.pickUp("ingredient1");
+            else if(collision.gameObject.name == "Ingredient2") item.pickUp("ingredient2");
+            else if(collision.gameObject.name == "Ingredient3") item.pickUp("ingredient3");
+            else if(collision.gameObject.name == "Ingredient4") item.pickUp("ingredient4");
             //Debug.Log("Got an inventory item");
         }
         else if("LabBench".Equals(collision.gameObject.tag)) {

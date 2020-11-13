@@ -18,8 +18,11 @@ public class InvItemBehavior : MonoBehaviour
     GameObject mapIngredient4;
     GameObject slotIngredient4;
     GameObject mapPillBottle;
+    GameObject mapCureList;
+    GameObject slotCureList;
 
     [SerializeField] public string puzzle;
+    [SerializeField] public ListBehavior listBtn;
     
     public void pickUp(string itemID){
         if(itemID == "pillBottle"){
@@ -28,8 +31,9 @@ public class InvItemBehavior : MonoBehaviour
             mapPillBottle.SetActive(false);
         }
         else if (itemID == "cureList"){
-            Debug.Log("Picked up cure list");
-            //add to inventory, remove item from map
+            slotCureList.GetComponent<Image>().enabled = true;
+            mapCureList.SetActive(false);
+            listBtn.pickedUp = true;
         }
         else if (itemID == "ingredient1"){
             slotIngredient1.GetComponent<Image>().enabled = true;
@@ -66,6 +70,10 @@ public class InvItemBehavior : MonoBehaviour
         mapIngredient4 = GameObject.Find("Ingredient4");
         slotIngredient4 = GameObject.Find("InvSlot4");
         slotIngredient4.GetComponent<Image>().enabled = false;
+
+        mapCureList = GameObject.Find("CureList");
+        slotCureList = GameObject.Find("ListSlot");
+        slotCureList.GetComponent<Image>().enabled = false;
 
         mapPillBottle = GameObject.Find("MapPillBottle");
     }
