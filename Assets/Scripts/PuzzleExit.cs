@@ -8,9 +8,7 @@ public class PuzzleExit : MonoBehaviour
 {
     public void OnMouseDown()
     {
-        // idk how to do this w/out starting hospital bit from beginning
-
-        //SceneManager.UnloadSceneAsync("PuzzleTemplate");
+        SceneManager.UnloadSceneAsync("PuzzleTemplate");
         //SceneManager.LoadScene("Hospital");
         //SceneManager.LoadScene(0);
     }

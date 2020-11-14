@@ -19,14 +19,16 @@ public class PlayerControls : MonoBehaviour
 
     public bool hasCure;
 
-    [SerializeField] private TurningMechanic turning;
+    [SerializeField] private TurningMechanic turningBar;
+    [SerializeField] private TurningMechanic turningTop;
     [SerializeField] private LabBenchBehavior bench;
     [SerializeField] private SceneMan SceneMan; 
 
     // Start is called before the first frame update
     void Start()
     {
-        turning.SetSize((float)(humanity * 0.01));
+        turningBar.SetSize((float)(humanity * 0.01));
+        turningTop.SetSize((float)(humanity * 0.01));
         pillCount = 30;
         hasCure = false;
     }
@@ -53,7 +55,9 @@ public class PlayerControls : MonoBehaviour
         
         rb.MovePosition(rb.position + movement * speed * Time.fixedDeltaTime);
 
-        turning.SetSize((float)(humanity * 0.01));
+        turningBar.SetSize((float)(humanity * 0.01));
+        turningTop.SetSize((float)(humanity * 0.01));
+
 
         humanity -= zombificationRate * Time.deltaTime;
     }

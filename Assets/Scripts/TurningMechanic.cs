@@ -6,18 +6,34 @@ using UnityEngine.UI;
 public class TurningMechanic : MonoBehaviour
 {
     private Transform bar;
+    private Transform top;
 
     private void Awake()
     {
         bar = transform.Find("Bar");
+
+        top = transform.Find("Top");
     }
 
     public void SetSize(float sizeNormalized)
     {
+        // zombie scale 0 to 1
+
         if (sizeNormalized < 0)
         {
             sizeNormalized = 0;
         }
-        bar.localScale = new Vector3(4 * sizeNormalized, 1f);
+
+        if (bar != null)
+        {
+            // bar scale 0 to 4
+            bar.localScale = new Vector3(4 * sizeNormalized, 1f);
+        }
+
+        if (top != null)
+        {
+            // scale 650 to 0
+            top.localPosition = new Vector3(1f, 650 * sizeNormalized);
+        }
     }
 }

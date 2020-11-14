@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class SceneMan : MonoBehaviour
 {
     Scene MainScene;
+    [SerializeField] GameObject player;
 
     // Use this for initialization
     void Start()
@@ -16,13 +17,13 @@ public class SceneMan : MonoBehaviour
     public void ActivatePuzzle(string Puzzle)
     {
         MainScene = SceneManager.GetActiveScene();
-        SceneManager.LoadSceneAsync(Puzzle);
-        //SceneManager.LoadScene(Puzzle, LoadSceneMode.Single);
-    }
 
-    //public void ExitPuzzle()
-    //{
-    //    SceneManager.LoadSceneAsync(MainScene.name);
-    //}
+        Scene PuzzleScene = SceneManager.GetSceneByName(Puzzle);
+        
+
+        //SceneManager.LoadSceneAsync(Puzzle, LoadSceneMode.Additive);
+
+        SceneManager.LoadScene(Puzzle, LoadSceneMode.Additive);
+    }
 
 }
