@@ -21,7 +21,7 @@ public class InvItemBehavior : MonoBehaviour
     GameObject mapCureList;
     GameObject slotCureList;
 
-    [SerializeField] public string puzzle;
+    [SerializeField] public string puzzle;   //Used by PlayerControls to choose the puzzle to load
     [SerializeField] public ListBehavior listBtn;
     
     public void pickUp(string itemID){
