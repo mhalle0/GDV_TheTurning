@@ -3,12 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-
 public class PuzzleExit : MonoBehaviour
 {
+    public string puzzleSceneName;
+
     public void OnMouseDown()
     {
-        SceneManager.UnloadSceneAsync("PuzzleTemplate");
+        if (puzzleSceneName == null) SceneManager.UnloadSceneAsync("PuzzleTemplate");
+        else SceneManager.UnloadSceneAsync(puzzleSceneName);
         //SceneManager.LoadScene("Hospital");
         //SceneManager.LoadScene(0);
     }
