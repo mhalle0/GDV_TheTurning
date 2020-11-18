@@ -17,4 +17,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/PuzzleTemplate.unity
     guid: f6214103c982c43edb5c5440d76693b6
+  - enabled: 1
+    path: Assets/Scenes/CircuitPuzzle.unity
+    guid: 34580003519a14683bf051831d1740c2
+  - enabled: 1
+    path: Assets/Scenes/CodebreakingPuzzle.unity
+    guid: a31e6489cf4afdf44b9e0da5d9b55854
+  - enabled: 1
+    path: Assets/Scenes/DeathMenu.unity
+    guid: d2a2b5bae267399468efda00083d363f
+  - enabled: 1
+    path: Assets/Scenes/SliderPuzzle.unity
+    guid: 3543d04ff3389405a97fae571da47055
   m_configObjects: {}
