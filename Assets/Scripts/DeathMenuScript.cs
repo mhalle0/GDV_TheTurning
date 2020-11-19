@@ -8,6 +8,7 @@ public class DeathMenuScript : MonoBehaviour
     public void DeathRetry()
     {
         Debug.Log("Retry button clicked");
+        SceneManager.LoadScene("MainMenu");
     }
 
     public void DeathQuit()
