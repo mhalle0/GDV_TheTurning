@@ -47,17 +47,14 @@ public class PlayerControls : MonoBehaviour
         } else {
             animator.SetBool("isMoving", true);
         }
-
-
     }
 
     void FixedUpdate(){
         
-        rb.MovePosition(rb.position + movement * speed * Time.fixedDeltaTime);
+        rb.MovePosition(rb.position + movement.normalized * speed * Time.fixedDeltaTime);
 
         turningBar.SetSize((float)(humanity * 0.01));
         turningTop.SetSize((float)(humanity * 0.01));
-
 
         humanity -= zombificationRate * Time.deltaTime;
     }
