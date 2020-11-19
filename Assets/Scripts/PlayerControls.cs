@@ -22,7 +22,8 @@ public class PlayerControls : MonoBehaviour
     [SerializeField] private TurningMechanic turningBar;
     [SerializeField] private TurningMechanic turningTop;
     [SerializeField] private LabBenchBehavior bench;
-    [SerializeField] private SceneMan SceneMan; 
+    [SerializeField] private SceneMan SceneMan;
+
 
     // Start is called before the first frame update
     void Start()
@@ -57,6 +58,10 @@ public class PlayerControls : MonoBehaviour
         turningTop.SetSize((float)(humanity * 0.01));
 
         humanity -= zombificationRate * Time.deltaTime;
+        if(humanity <= 0)
+        {
+            SceneManager.LoadScene("DeathMenu");
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision) {

@@ -38,11 +38,6 @@ public class CircuitNode : MonoBehaviour
         }
     }
 
-    //public bool Full()
-    //{
-    //    return connection1 != null && connection2 != null;
-    //}
-
     public void DrawLine(CircuitNode otherNode)
     {
         GameObject wire = new GameObject();
@@ -54,6 +49,11 @@ public class CircuitNode : MonoBehaviour
         lr.SetPosition(0, this.transform.position);
         lr.SetPosition(1, otherNode.transform.position);
         wire.tag = "Wire";
+
+        wire.AddComponent<WireBehavior>();
+        WireBehavior wb = wire.GetComponent<WireBehavior>();
+        wb.wnode1 = this;
+        wb.wnode2 = otherNode;
     }
 
     public void PresetLine(CircuitNode otherNode)
