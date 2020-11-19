@@ -8,6 +8,7 @@ TagManager:
   - InvItem
   - Pill
   - LabBench
+  - Wire
   layers:
   - Default
   - TransparentFX
