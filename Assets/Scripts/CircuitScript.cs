@@ -56,14 +56,25 @@ public class CircuitScript : MonoBehaviour
 
     public void Retry()
     {
-        //GameObject[] wires = GameObject.FindGameObjectsWithTag("Wire");
-        //foreach (var wire in wires)
-        //{
-        //    // remove connections
-        //    // remove line
-        //}
-        SceneManager.UnloadSceneAsync("CircuitPuzzle");
-        SceneManager.LoadScene("CircuitPuzzle", LoadSceneMode.Additive);
+        GameObject[] wires = GameObject.FindGameObjectsWithTag("Wire");
+        foreach (GameObject wire in wires)
+        {
+            // remove connections & destroy lines
+            WireBehavior wb = wire.GetComponent<WireBehavior>();
+            wb.wnode1.connection1 = null;
+            wb.wnode1.connection2 = null;
+            wb.wnode2.connection1 = null;
+            wb.wnode2.connection2 = null;
+
+            LineRenderer lr = wire.GetComponent<LineRenderer>();
+            Destroy(lr);
+            Destroy(wire);
+        }
+
+        Awake();
+
+        //SceneManager.UnloadSceneAsync("CircuitPuzzle");
+        //SceneManager.LoadScene("CircuitPuzzle", LoadSceneMode.Additive);
     }
 
     public void NodeClicked(CircuitNode node)
