@@ -27,7 +27,7 @@ public class TurningMechanic : MonoBehaviour
         if (bar != null)
         {
             // bar scale 0 to 4
-            bar.localScale = new Vector3(4 * sizeNormalized, 1f);
+            bar.localScale = new Vector3( (4-(4 * sizeNormalized)), 1f);
         }
 
         if (top != null)

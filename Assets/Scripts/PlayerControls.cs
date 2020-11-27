@@ -12,8 +12,8 @@ public class PlayerControls : MonoBehaviour
     public Rigidbody2D rb;
     public Animator animator;
 
-    private float humanity = 100;   // how much humanity you start w/
-    private float zombificationRate = 1f; // rate that you turn into a zombie
+    public float humanity = 100;   // how much humanity you start w/
+    public float zombificationRate = 1f; // rate that you turn into a zombie
     
     public int pillCount;
 
@@ -153,7 +153,6 @@ public class PlayerControls : MonoBehaviour
                 Debug.Log("Game paused");
                 Time.timeScale = 0;
                 showPauseMenu();
-
             }
         }
     }

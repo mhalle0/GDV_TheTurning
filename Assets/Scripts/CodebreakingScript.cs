@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class CodebreakingScript : MonoBehaviour
 {
-    
+
     public Button retryButton;
     //public bool codebreakingHasWon = false;
     //Answer Panel references
