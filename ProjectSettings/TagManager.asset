@@ -9,6 +9,7 @@ TagManager:
   - Pill
   - LabBench
   - Wire
+  - PauseMenu
   layers:
   - Default
   - TransparentFX

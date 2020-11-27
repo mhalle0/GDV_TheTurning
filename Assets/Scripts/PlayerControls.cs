@@ -24,6 +24,7 @@ public class PlayerControls : MonoBehaviour
     [SerializeField] private LabBenchBehavior bench;
     [SerializeField] private SceneMan SceneMan;
 
+    GameObject[] pauseObjects;
 
     // Start is called before the first frame update
     void Start()
@@ -32,6 +33,10 @@ public class PlayerControls : MonoBehaviour
         turningTop.SetSize((float)(humanity * 0.01));
         pillCount = 30;
         hasCure = false;
+
+        Time.timeScale = 1;
+        pauseObjects = GameObject.FindGameObjectsWithTag("PauseMenu");
+        hidePauseMenu();
     }
 
     // Update is called once per frame
@@ -47,6 +52,11 @@ public class PlayerControls : MonoBehaviour
             animator.SetBool("isMoving", false);
         } else {
             animator.SetBool("isMoving", true);
+        }
+
+        if(Input.GetKeyDown(KeyCode.Escape))
+        {
+            TogglePause();
         }
     }
 
@@ -110,4 +120,42 @@ public class PlayerControls : MonoBehaviour
     public void RefillPills(){
         pillCount += 30;
     }
+
+    //Pause functions
+    public void showPauseMenu()
+    {
+        foreach(GameObject g in pauseObjects)
+        {
+            g.SetActive(true);
+        }
+    }
+
+    public void hidePauseMenu()
+    {
+        foreach(GameObject g in pauseObjects)
+        {
+            g.SetActive(false);
+        }
+    }
+
+    public void TogglePause()
+    {
+        if(SceneManager.GetActiveScene().name == "Hospital")
+        {
+            if(Time.timeScale == 0)
+            {
+                Debug.Log("Game unpaused");
+                Time.timeScale = 1;
+                hidePauseMenu();
+            } 
+            else 
+            {
+                Debug.Log("Game paused");
+                Time.timeScale = 0;
+                showPauseMenu();
+
+            }
+        }
+    }
+
 }
