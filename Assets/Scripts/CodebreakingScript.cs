@@ -48,6 +48,18 @@ public class CodebreakingScript : MonoBehaviour
     public InputField AI_E;
     
 
+    void Start()
+    {
+        AP_U.text = "U";
+        AI_U.text = "U";
+
+        AP_C.text = "C";
+        AI_C.text = "C";
+
+        AP_T.text = "T";
+        AI_T.text = "T";
+    }
+
     void OnEnable()
     {
         retryButton.onClick.AddListener(() => codeBreakingRetry());
