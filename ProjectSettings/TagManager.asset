@@ -22,7 +22,7 @@ TagManager:
   - Floor and Walls
   - Doors
   - Room Items
-  - 
+  - UI Behind Background
   - 
   - 
   - 
@@ -51,6 +51,9 @@ TagManager:
     locked: 0
   - name: UI Background
     uniqueID: 1267423047
+    locked: 0
+  - name: UI Behind Background
+    uniqueID: 1934849243
     locked: 0
   - name: Floor and Walls
     uniqueID: 3343114671
