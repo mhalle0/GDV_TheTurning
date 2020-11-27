@@ -36,6 +36,26 @@ public class InvItemBehavior : MonoBehaviour
             listBtn.pickedUp = true;
         }
         else if (itemID == "ingredient1"){
+            //slotIngredient1.GetComponent<Image>().enabled = true;
+            //mapIngredient1.SetActive(false);
+        }
+        else if (itemID == "ingredient2"){
+            //slotIngredient2.GetComponent<Image>().enabled = true;
+            //mapIngredient2.SetActive(false);
+        }
+        else if (itemID == "ingredient3"){
+            //slotIngredient3.GetComponent<Image>().enabled = true;
+            //mapIngredient3.SetActive(false);
+        }
+        else if (itemID == "ingredient4"){
+            slotIngredient4.GetComponent<Image>().enabled = true;
+            mapIngredient4.SetActive(false);
+        }
+    }
+
+    public void getIngredient(string itemID)
+    {
+        if (itemID == "ingredient1"){
             slotIngredient1.GetComponent<Image>().enabled = true;
             mapIngredient1.SetActive(false);
         }
@@ -47,12 +67,8 @@ public class InvItemBehavior : MonoBehaviour
             slotIngredient3.GetComponent<Image>().enabled = true;
             mapIngredient3.SetActive(false);
         }
-        else if (itemID == "ingredient4"){
-            slotIngredient4.GetComponent<Image>().enabled = true;
-            mapIngredient4.SetActive(false);
-        }
-
     }
+
     void Start()
     {
         mapIngredient1 = GameObject.Find("Ingredient1");
