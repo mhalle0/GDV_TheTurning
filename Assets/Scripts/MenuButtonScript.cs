@@ -13,6 +13,6 @@ public class MenuButtonScript : MonoBehaviour
     public void ClickInfo()
     {
         Debug.Log("Info button clicked");
-        //add info screen
+        SceneManager.LoadScene("InfoMenu");
     }
 }

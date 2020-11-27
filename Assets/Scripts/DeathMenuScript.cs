@@ -7,13 +7,13 @@ public class DeathMenuScript : MonoBehaviour
 {
     public void DeathRetry()
     {
-        Debug.Log("Retry button clicked");
+        Debug.Log("Retry button clicked from death menu");
         SceneManager.LoadScene("MainMenu");
     }
 
     public void DeathQuit()
     {
-        Debug.Log("Game quit");
+        Debug.Log("Game quit from death menu");
         Application.Quit();
     }
 }
