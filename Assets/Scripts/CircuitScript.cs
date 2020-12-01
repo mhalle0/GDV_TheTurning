@@ -27,8 +27,17 @@ public class CircuitScript : MonoBehaviour
     [SerializeField] CircuitNode Node18;
     [SerializeField] CircuitNode Node19;
 
+    GameObject[] infoMenu;
+    public bool infoIsOpen;
 
     // Start is called before the first frame update
+    void Start()
+    {
+        infoMenu = GameObject.FindGameObjectsWithTag("PuzzleInfo");
+        infoIsOpen = true;
+        ToggleInfo();
+    }
+    
     void Awake()
     {
         Node1.PresetLine(Node2);
@@ -51,6 +60,32 @@ public class CircuitScript : MonoBehaviour
             Node17.Full && Node18.Full && Node3.Full)
         {
             Debug.Log("congrats u won");
+        }
+    }
+
+    public void ToggleInfo()
+    {
+        if(infoIsOpen == true)
+        {
+            Debug.Log("Puzzle info closed");
+
+            foreach(GameObject g in infoMenu)
+            {
+                g.SetActive(false);
+            }
+
+            infoIsOpen = false;
+        } 
+        else 
+        {
+            Debug.Log("Puzzle info opened");
+
+            foreach(GameObject g in infoMenu)
+            {
+                g.SetActive(true);
+            }
+
+            infoIsOpen = true;
         }
     }
 

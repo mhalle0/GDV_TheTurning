@@ -36,8 +36,11 @@ public class SliderPuzzleController : MonoBehaviour
     public GameObject finishText;
     public TMPro.TextMeshProUGUI scoreText;
 
+    GameObject[] infoMenu;
+    public bool infoIsOpen;
+
     //Space in between each tile
-    public float tileSpace = 1.7f;
+    public float tileSpace = 1.2f;
 
     //Amount of times a button is clicked
     private int moveCount = 0;
@@ -95,6 +98,36 @@ public class SliderPuzzleController : MonoBehaviour
         tile9.GetComponent<Renderer>().enabled = false;
         finishText.SetActive(false);
         scoreText.enabled = false;
+
+        infoMenu = GameObject.FindGameObjectsWithTag("PuzzleInfo");
+        infoIsOpen = true;
+        ToggleInfo();
+    }
+
+    public void ToggleInfo()
+    {
+        if(infoIsOpen == true)
+        {
+            Debug.Log("Puzzle info closed");
+
+            foreach(GameObject g in infoMenu)
+            {
+                g.SetActive(false);
+            }
+
+            infoIsOpen = false;
+        } 
+        else 
+        {
+            Debug.Log("Puzzle info opened");
+
+            foreach(GameObject g in infoMenu)
+            {
+                g.SetActive(true);
+            }
+
+            infoIsOpen = true;
+        }
     }
 
     void restart() {

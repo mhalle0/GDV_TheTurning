@@ -36,6 +36,7 @@ public class PlayerControls : MonoBehaviour
 
         Time.timeScale = 1;
         pauseObjects = GameObject.FindGameObjectsWithTag("PauseMenu");
+        showPauseMenu();
         hidePauseMenu();
     }
 

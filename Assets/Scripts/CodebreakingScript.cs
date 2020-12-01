@@ -46,7 +46,9 @@ public class CodebreakingScript : MonoBehaviour
     public InputField AI_Y;
     public InputField AI_T;
     public InputField AI_E;
-    
+
+    GameObject[] infoMenu;
+    public bool infoIsOpen;
 
     void Start()
     {
@@ -58,6 +60,36 @@ public class CodebreakingScript : MonoBehaviour
 
         AP_T.text = "T";
         AI_T.text = "T";
+
+        infoMenu = GameObject.FindGameObjectsWithTag("PuzzleInfo");
+        infoIsOpen = true;
+        ToggleInfo();
+    }
+
+    public void ToggleInfo()
+    {
+        if(infoIsOpen == true)
+        {
+            Debug.Log("Puzzle info closed");
+
+            foreach(GameObject g in infoMenu)
+            {
+                g.SetActive(false);
+            }
+
+            infoIsOpen = false;
+        } 
+        else 
+        {
+            Debug.Log("Puzzle info opened");
+
+            foreach(GameObject g in infoMenu)
+            {
+                g.SetActive(true);
+            }
+
+            infoIsOpen = true;
+        }
     }
 
     void OnEnable()

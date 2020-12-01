@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 7927166168583953661}
   - component: {fileID: 7927166168583953660}
   - component: {fileID: 7927166168583953662}
-  m_Layer: 11
+  m_Layer: 13
   m_Name: Node1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -158,6 +158,7 @@ MonoBehaviour:
   column: 3
   CanChangeConnect1: 0
   CanChangeConnect2: 0
+  Full: 0
   Circuit: {fileID: 0}
 --- !u!58 &7927166168583953662
 CircleCollider2D:

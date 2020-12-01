@@ -49,6 +49,7 @@ public class CircuitNode : MonoBehaviour
         lr.SetPosition(0, this.transform.position);
         lr.SetPosition(1, otherNode.transform.position);
         wire.tag = "Wire";
+        wire.layer = 13;
 
         wire.AddComponent<WireBehavior>();
         WireBehavior wb = wire.GetComponent<WireBehavior>();
