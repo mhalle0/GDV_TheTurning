@@ -61,6 +61,7 @@ public class CircuitScript : MonoBehaviour
             Node17.Full && Node18.Full && Node3.Full)
         {
             Debug.Log("congrats u won");
+
         }
     }
 
