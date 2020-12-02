@@ -169,16 +169,18 @@ public class SliderPuzzleController : MonoBehaviour
     //Called at the end of each move
     void checkIfDone() {
         if (checkFinish()) {
-            Debug.Log("Puzzle Sloved in " + moveCount + " moves and " + attempts + " attempts!");
+            Debug.Log("Puzzle Solved in " + moveCount + " moves and " + attempts + " attempts!");
             tile9.GetComponent<Renderer>().enabled = true;
 
             upButton.gameObject.SetActive(false);
             downButton.gameObject.SetActive(false);
             leftButton.gameObject.SetActive(false);
             rightButton.gameObject.SetActive(false);
-            finishText.SetActive(true);
-            scoreText.enabled = true;
+            //finishText.SetActive(true);
+            //scoreText.enabled = true;
             scoreText.text= ("Moves: " + moveCount + "\nAttempts: " + attempts);
+
+            CureManager.Instance.sliderIsWon = true;
         }
     }
 

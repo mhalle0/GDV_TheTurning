@@ -5,13 +5,7 @@ using UnityEngine.UI;
 
 public class LabBenchBehavior : MonoBehaviour
 {
-    
-    [SerializeField] private PlayerControls player;
 
-    GameObject mapIngredient1;
-    GameObject mapIngredient2;
-    GameObject mapIngredient3;
-    GameObject mapIngredient4;
     GameObject slotIngredient1;
     GameObject slotIngredient2;
     GameObject slotIngredient3;
@@ -21,11 +15,6 @@ public class LabBenchBehavior : MonoBehaviour
 
     void Start()
     {
-        mapIngredient1 = GameObject.Find("Ingredient1");
-        mapIngredient2 = GameObject.Find("Ingredient2");
-        mapIngredient3 = GameObject.Find("Ingredient3");
-        mapIngredient4 = GameObject.Find("Ingredient4");
-
         slotIngredient1 = GameObject.Find("InvSlot1");
         slotIngredient2 = GameObject.Find("InvSlot2");
         slotIngredient3 = GameObject.Find("InvSlot3");
@@ -36,12 +25,13 @@ public class LabBenchBehavior : MonoBehaviour
 
     void checkCure()
     {
-        if(!mapIngredient1.activeInHierarchy && 
-           !mapIngredient2.activeInHierarchy && 
-           !mapIngredient3.activeInHierarchy && 
-           !mapIngredient4.activeInHierarchy){
-            cureReady = true;
-        }
+        if(CureManager.Instance.circuitIsWon && 
+           CureManager.Instance.sliderIsWon && 
+           CureManager.Instance.codebreakingIsWon && 
+           CureManager.Instance.mazeIsWon)
+           {
+               cureReady = true;
+           }
     }
 
     public void makeCure()
@@ -49,7 +39,7 @@ public class LabBenchBehavior : MonoBehaviour
     {
         checkCure();
         if(cureReady){
-            player.hasCure = true;
+            CureManager.Instance.playerHasCure = true;
             slotIngredient1.GetComponent<Image>().enabled = false;
             slotIngredient2.GetComponent<Image>().enabled = false;
             slotIngredient3.GetComponent<Image>().enabled = false;

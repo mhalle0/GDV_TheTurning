@@ -17,8 +17,6 @@ public class PlayerControls : MonoBehaviour
     
     public int pillCount;
 
-    public bool hasCure;
-
     [SerializeField] private TurningMechanic turningBar;
     [SerializeField] private TurningMechanic turningTop;
     [SerializeField] private LabBenchBehavior bench;
@@ -32,12 +30,17 @@ public class PlayerControls : MonoBehaviour
         turningBar.SetSize((float)(humanity * 0.01));
         turningTop.SetSize((float)(humanity * 0.01));
         pillCount = 30;
-        hasCure = false;
 
         Time.timeScale = 1;
         pauseObjects = GameObject.FindGameObjectsWithTag("PauseMenu");
         showPauseMenu();
         hidePauseMenu();
+
+        CureManager.Instance.circuitIsWon = false;
+        CureManager.Instance.sliderIsWon = false;
+        CureManager.Instance.codebreakingIsWon = false;
+        CureManager.Instance.mazeIsWon = false;
+        CureManager.Instance.playerHasCure = false;
     }
 
     // Update is called once per frame
