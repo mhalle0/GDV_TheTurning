@@ -54,13 +54,22 @@ public class CircuitScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if( Node1.Full && Node2.Full && Node3.Full && Node4.Full &&
-            Node5.Full && Node6.Full && Node7.Full && Node8.Full &&
-            Node9.Full && Node10.Full && Node11.Full && Node12.Full &&
-            Node13.Full && Node14.Full && Node15.Full && Node16.Full &&
-            Node17.Full && Node18.Full && Node3.Full)
+        checkWin();
+    }
+
+    public void checkWin()
+    {
+        if(CureManager.Instance.circuitIsWon == false)
         {
-            Debug.Log("congrats u won");
+            if( Node1.Full && Node2.Full && Node3.Full && Node4.Full &&
+                Node5.Full && Node6.Full && Node7.Full && Node8.Full &&
+                Node9.Full && Node10.Full && Node11.Full && Node12.Full &&
+                Node13.Full && Node14.Full && Node15.Full && Node16.Full &&
+                Node17.Full && Node18.Full && Node3.Full)
+            {
+            Debug.Log("Circuit puzzle won");
+            CureManager.Instance.circuitIsWon = true;
+            }
         }
     }
 

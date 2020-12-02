@@ -104,25 +104,28 @@ public class CodebreakingScript : MonoBehaviour
 
     public void checkAnswer()
     {
-        if((AI_B.text.ToUpper() == "B") &&
-           (AI_C.text.ToUpper() == "C") &&
-           (AI_D.text.ToUpper() == "D") &&
-           (AI_E.text.ToUpper() == "E") &&
-           (AI_H.text.ToUpper() == "H") &&
-           (AI_K.text.ToUpper() == "K") &&
-           (AI_O.text.ToUpper() == "O") &&
-           (AI_P.text.ToUpper() == "P") &&
-           (AI_R.text.ToUpper() == "R") &&
-           (AI_S.text.ToUpper() == "S") &&
-           (AI_T.text.ToUpper() == "T") &&
-           (AI_U.text.ToUpper() == "U") &&
-           (AI_Y.text.ToUpper() == "Y")) winCodebreaking();
+        if(CureManager.Instance.codebreakingIsWon == false)
+        {
+            if((AI_B.text.ToUpper() == "B") &&
+               (AI_C.text.ToUpper() == "C") &&
+               (AI_D.text.ToUpper() == "D") &&
+               (AI_E.text.ToUpper() == "E") &&
+               (AI_H.text.ToUpper() == "H") &&
+               (AI_K.text.ToUpper() == "K") &&
+               (AI_O.text.ToUpper() == "O") &&
+               (AI_P.text.ToUpper() == "P") &&
+               (AI_R.text.ToUpper() == "R") &&
+               (AI_S.text.ToUpper() == "S") &&
+               (AI_T.text.ToUpper() == "T") &&
+               (AI_U.text.ToUpper() == "U") &&
+               (AI_Y.text.ToUpper() == "Y")) winCodebreaking();
+        }
     }
 
     public void winCodebreaking()
     {
-        //codebreakingHasWon = true;
         Debug.Log("Codebreaking puzzle completed");
+        CureManager.Instance.codebreakingIsWon = true;
     }
 
     public void matchInput()

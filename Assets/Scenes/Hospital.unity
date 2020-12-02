@@ -305,7 +305,6 @@ MonoBehaviour:
   humanity: 100
   zombificationRate: 1
   pillCount: 0
-  hasCure: 0
   turningBar: {fileID: 838673566}
   turningTop: {fileID: 955776996}
   bench: {fileID: 117383726}
@@ -736,7 +735,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ce66db7f3d77415c8bf41973ecabd39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 13242482}
   cureReady: 0
 --- !u!212 &117383727
 SpriteRenderer:
@@ -20449,7 +20447,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
