@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class CircuitScript : MonoBehaviour
 {
     private CircuitNode ClickNode1;
+    [SerializeField] PuzzleExit ExitBtn;
 
     [SerializeField] CircuitNode Node1;
     [SerializeField] CircuitNode Node2;
@@ -89,7 +90,7 @@ public class CircuitScript : MonoBehaviour
         }
     }
 
-    public void Retry()
+    public void ClearBoard()
     {
         GameObject[] wires = GameObject.FindGameObjectsWithTag("Wire");
         foreach (GameObject wire in wires)
@@ -105,11 +106,18 @@ public class CircuitScript : MonoBehaviour
             Destroy(lr);
             Destroy(wire);
         }
+    }
 
+    public void Retry()
+    {
+        ClearBoard();
         Awake();
+    }
 
-        //SceneManager.UnloadSceneAsync("CircuitPuzzle");
-        //SceneManager.LoadScene("CircuitPuzzle", LoadSceneMode.Additive);
+    public void Exit()
+    {
+        ClearBoard();
+        ExitBtn.OnMouseDown();
     }
 
     public void NodeClicked(CircuitNode node)
