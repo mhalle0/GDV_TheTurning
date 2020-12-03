@@ -139,6 +139,11 @@ public class PlayerControls : MonoBehaviour
         }
         else if("LabBench".Equals(collision.gameObject.tag)) {
             bench.makeCure();
+        } else if ("Exit".Equals(collision.gameObject.tag)) {
+            ExitDoorBehavior door = collision.gameObject.GetComponent<ExitDoorBehavior>();
+            if (!door.isLocked) {
+                SceneManager.LoadScene("WinMenu");
+            }
         }
         else {
             Debug.Log("(PLAYER): Notice- Collided with object with unprocessed tag. Object Name: \"" + collision.gameObject.name + "\"   Object Tag: \"" + collision.gameObject.tag + "\"");
