@@ -11,6 +11,7 @@ public class PuzzleExit : MonoBehaviour
     {
         if (puzzleSceneName == null) SceneManager.UnloadSceneAsync("PuzzleTemplate");
         else SceneManager.UnloadSceneAsync(puzzleSceneName);
+        FreezePlayer.Instance.puzzleIsOpen = false;
         //SceneManager.LoadScene("Hospital");
         //SceneManager.LoadScene(0);
     }

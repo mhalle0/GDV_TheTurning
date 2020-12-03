@@ -302,6 +302,8 @@ MonoBehaviour:
   speed: 5
   rb: {fileID: 13242485}
   animator: {fileID: 13242486}
+  sprite: {fileID: 0}
+  idleSprite: {fileID: -7309246076734674801, guid: 45080c5a4943b4edea3452cf314eb664, type: 3}
   humanity: 100
   zombificationRate: 1
   pillCount: 0

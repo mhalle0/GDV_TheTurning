@@ -11,6 +11,8 @@ public class PlayerControls : MonoBehaviour
 
     public Rigidbody2D rb;
     public Animator animator;
+    public SpriteRenderer sprite;
+    public Sprite idleSprite;
 
     public float humanity = 100;   // how much humanity you start w/
     public float zombificationRate = 1f; // rate that you turn into a zombie
@@ -27,6 +29,10 @@ public class PlayerControls : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        animator.enabled = true;
+
+        sprite = GetComponent<SpriteRenderer>();
+
         turningBar.SetSize((float)(humanity * 0.01));
         turningTop.SetSize((float)(humanity * 0.01));
         pillCount = 30;
@@ -41,6 +47,8 @@ public class PlayerControls : MonoBehaviour
         CureManager.Instance.codebreakingIsWon = false;
         CureManager.Instance.mazeIsWon = false;
         CureManager.Instance.playerHasCure = false;
+        
+        FreezePlayer.Instance.puzzleIsOpen = false;
     }
 
     // Update is called once per frame
@@ -66,7 +74,19 @@ public class PlayerControls : MonoBehaviour
 
     void FixedUpdate(){
         
-        rb.MovePosition(rb.position + movement.normalized * speed * Time.fixedDeltaTime);
+        if(FreezePlayer.Instance.puzzleIsOpen == true) 
+        {
+            sprite.sprite = idleSprite;
+            animator.enabled = false;
+        }
+        else if(animator.enabled == false)
+        {
+            animator.enabled = true;
+        }
+        else
+        {
+            rb.MovePosition(rb.position + movement.normalized * speed * Time.fixedDeltaTime);
+        }
 
         turningBar.SetSize((float)(humanity * 0.01));
         turningTop.SetSize((float)(humanity * 0.01));
@@ -99,9 +119,21 @@ public class PlayerControls : MonoBehaviour
                 SceneMan.ActivatePuzzle(item.puzzle);
             }
 
-            if(collision.gameObject.name == "Ingredient1") item.pickUp("ingredient1");
-            else if(collision.gameObject.name == "Ingredient2") item.pickUp("ingredient2");
-            else if(collision.gameObject.name == "Ingredient3") item.pickUp("ingredient3");
+            if(collision.gameObject.name == "Ingredient1")
+            {
+                FreezePlayer.Instance.puzzleIsOpen = true;
+                item.pickUp("ingredient1"); 
+            }
+            else if(collision.gameObject.name == "Ingredient2")
+            {
+                FreezePlayer.Instance.puzzleIsOpen = true;
+                item.pickUp("ingredient2");
+            } 
+            else if(collision.gameObject.name == "Ingredient3") 
+            {
+                FreezePlayer.Instance.puzzleIsOpen = true;
+                item.pickUp("ingredient3");
+            }
             else if(collision.gameObject.name == "Ingredient4") item.pickUp("ingredient4");
             //Debug.Log("Got an inventory item");
         }
