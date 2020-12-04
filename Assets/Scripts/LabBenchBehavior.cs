@@ -10,6 +10,7 @@ public class LabBenchBehavior : MonoBehaviour
     GameObject slotIngredient2;
     GameObject slotIngredient3;
     GameObject slotIngredient4;
+    public Sprite cureImage;
 
     public bool cureReady;
 
@@ -25,13 +26,14 @@ public class LabBenchBehavior : MonoBehaviour
 
     void checkCure()
     {
-        if(CureManager.Instance.circuitIsWon && 
-           CureManager.Instance.sliderIsWon && 
-           CureManager.Instance.codebreakingIsWon && 
-           CureManager.Instance.mazeIsWon)
-           {
-               cureReady = true;
-           }
+        //if(CureManager.Instance.circuitIsWon && 
+        //   CureManager.Instance.sliderIsWon && 
+        //   CureManager.Instance.codebreakingIsWon && 
+        //   CureManager.Instance.mazeIsWon)
+        //   {
+        //       cureReady = true;
+        //   }
+        cureReady = true;
     }
 
     public void makeCure()
@@ -44,6 +46,8 @@ public class LabBenchBehavior : MonoBehaviour
             slotIngredient2.GetComponent<Image>().enabled = false;
             slotIngredient3.GetComponent<Image>().enabled = false;
             slotIngredient4.GetComponent<Image>().enabled = false;
+            slotIngredient1.GetComponent<Image>().sprite = cureImage;
+            slotIngredient1.GetComponent<Image>().enabled = true;
             Debug.Log("You've made the cure! Escape the hospital and bring it home to your child.");
         } else {
             Debug.Log("You don't have enough ingredients to finish the cure yet.");

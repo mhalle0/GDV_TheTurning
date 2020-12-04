@@ -737,6 +737,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ce66db7f3d77415c8bf41973ecabd39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cureImage: {fileID: 7856676115516184709, guid: 6bb83a5566bab405fb6ecfa2e06a0691, type: 3}
   cureReady: 0
 --- !u!212 &117383727
 SpriteRenderer:
@@ -23460,7 +23461,7 @@ TilemapRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -951852625
   m_SortingLayer: 4
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
   m_MaxChunkCount: 16
@@ -33488,7 +33489,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.08213043, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -33499,7 +33500,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 1.1642609, y: 1}
   m_EdgeRadius: 0
 --- !u!114 &2001779840
 MonoBehaviour:
