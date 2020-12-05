@@ -512,7 +512,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Add your puzzle information + controls + anything else here
+  m_text: 'Move the tiles using the arrow buttons to fix the broken bottle and collect
+    the ingredient
+
+
+    Blocks can only be moved one at a time and cannot overlap'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 603dada667ad0184ea610ec280f0e15a, type: 2}
   m_sharedMaterial: {fileID: -8076637654523902553, guid: 603dada667ad0184ea610ec280f0e15a, type: 2}
