@@ -11,7 +11,7 @@ public class DialogueBehavior : MonoBehaviour
 
     void Start()
     {
-        DialogueMessage("Example call to DialogueMessage() function");
+        //DialogueMessage("Example call to DialogueMessage() function");
     }
 
     public void DialogueMessage(string msg)

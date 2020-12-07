@@ -14,10 +14,13 @@ public class PlayerControls : MonoBehaviour
     public SpriteRenderer sprite;
     public Sprite idleSprite;
 
+    public DialogueBehavior DialogueBox;
+
     public float humanity = 100;   // how much humanity you start w/
     public float zombificationRate = 1f; // rate that you turn into a zombie
     
     public int pillCount;
+    private bool learnedPills;
 
     [SerializeField] private TurningMechanic turningBar;
     [SerializeField] private TurningMechanic turningTop;
@@ -36,6 +39,7 @@ public class PlayerControls : MonoBehaviour
         turningBar.SetSize((float)(humanity * 0.01));
         turningTop.SetSize((float)(humanity * 0.01));
         pillCount = 30;
+        learnedPills = false;
 
         Time.timeScale = 1;
         pauseObjects = GameObject.FindGameObjectsWithTag("PauseMenu");
@@ -49,6 +53,10 @@ public class PlayerControls : MonoBehaviour
         CureManager.Instance.playerHasCure = false;
         
         FreezePlayer.Instance.puzzleIsOpen = false;
+
+        DialogueBox = GameObject.Find("DialogueBox").GetComponent<DialogueBehavior>();
+
+        DialogueBox.DialogueMessage("Ugh…what happened yesterday ? Where is everyone?");
     }
 
     // Update is called once per frame
@@ -96,6 +104,11 @@ public class PlayerControls : MonoBehaviour
         {
             SceneManager.LoadScene("DeathMenu");
         }
+
+        if(!learnedPills && humanity <= 80)
+        {
+            DialogueBox.DialogueMessage("Ugh... I don't feel so good. Maybe taking some of these pills will help?");
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision) {
@@ -112,9 +125,13 @@ public class PlayerControls : MonoBehaviour
         else if ("InvItem".Equals(collision.gameObject.tag))
         {
             InvItemBehavior item = collision.gameObject.GetComponent<InvItemBehavior>();
-            if(collision.gameObject.name == "MapPillBottle") item.pickUp("pillBottle");
-            else if(collision.gameObject.name == "CureList") item.pickUp("cureList");
-            else if(item.puzzle != null)
+            if (collision.gameObject.name == "MapPillBottle")
+            {
+                item.pickUp("pillBottle");
+                DialogueBox.DialogueMessage("What’s this ? A pill bottle ? Prescription from fairview hospital…take as needed for the Turning. I can’t make out the rest of this label.");
+            }
+            else if (collision.gameObject.name == "CureList") item.pickUp("cureList");
+            else if (item.puzzle != null)
             {
                 SceneMan.ActivatePuzzle(item.puzzle);
             }
@@ -156,6 +173,10 @@ public class PlayerControls : MonoBehaviour
         humanity += 5;
         if (humanity > 100)
             humanity = 100;
+        if (!learnedPills)
+        {
+            learnedPills = true;
+        }
     }
 
     public void RefillPills(){
