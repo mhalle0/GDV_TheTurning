@@ -26,14 +26,13 @@ public class LabBenchBehavior : MonoBehaviour
 
     void checkCure()
     {
-        //if(CureManager.Instance.circuitIsWon && 
-        //   CureManager.Instance.sliderIsWon && 
-        //   CureManager.Instance.codebreakingIsWon && 
-        //   CureManager.Instance.mazeIsWon)
-        //   {
-        //       cureReady = true;
-        //   }
-        cureReady = true;
+        if (CureManager.Instance.circuitIsWon &&
+           CureManager.Instance.sliderIsWon &&
+           CureManager.Instance.codebreakingIsWon &&
+           CureManager.Instance.mazeIsWon)
+        {
+            cureReady = true;
+        }
     }
 
     public void makeCure()

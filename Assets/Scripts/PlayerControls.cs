@@ -105,7 +105,7 @@ public class PlayerControls : MonoBehaviour
             SceneManager.LoadScene("DeathMenu");
         }
 
-        if(!learnedPills && humanity <= 80)
+        if(!learnedPills && humanity <= 60)
         {
             DialogueBox.DialogueMessage("Ugh... I don't feel so good. Maybe taking some of these pills will help?");
         }
