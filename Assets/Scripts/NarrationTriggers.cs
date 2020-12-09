@@ -4,34 +4,33 @@ using UnityEngine;
 
 public class NarrationTriggers : MonoBehaviour
 {
-    [SerializeField] public string msg;
-    //[SerializeField] public string requirement;
-    [SerializeField] public bool UsesEnteredLab;
-    [SerializeField] public bool EnteredLab;
+    public string msg;
+    public int time;
 
+    public List<bool> reqs = new List<bool>();
 
-    public NarrationManager narrationManager;
-    private DialogueBehavior DialogeBox;
+    [SerializeField] public bool uses_hasNotEnteredLab;
 
-    // Start is called before the first frame update
+    private DialogueBehavior DialogueBox;
+
     void Start()
     {
-        DialogeBox = GameObject.Find("DialogueBox").GetComponent<DialogueBehavior>();
+        DialogueBox = GameObject.Find("DialogueBox").GetComponent<DialogueBehavior>();
     }
 
-    // Update is called once per frame
-    void Update()
+    void collectRequirements()
     {
-
+        reqs.Clear();
+        if(uses_hasNotEnteredLab == true) reqs.Add(DialogueManager.Instance.hasNotEnteredLab);
     }
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        //if(UsesEnteredLab && !EnteredLab)
-        //{
-        //    DialogeBox.DialogueMessage(msg);
-        //    EnteredLab = true;
-        //}
-        DialogeBox.DialogueMessage(msg);
+        collectRequirements();
+        if((reqs.Count == 0) || !reqs.Contains(false))
+        {
+            DialogueBox.QueueDialogue(new KeyValuePair <int, string>(time, msg));
+            if(reqs.Contains(DialogueManager.Instance.hasNotEnteredLab)) DialogueManager.Instance.hasNotEnteredLab = false;
+        }
     }
 }

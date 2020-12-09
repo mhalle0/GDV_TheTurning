@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class PlayerControls : MonoBehaviour
 {
-    public float speed = 5f;
+    public float speed = 3.5f;
     Vector2 movement;
 
     public Rigidbody2D rb;
@@ -20,7 +20,6 @@ public class PlayerControls : MonoBehaviour
     public float zombificationRate = 1f; // rate that you turn into a zombie
     
     public int pillCount;
-    private bool learnedPills;
 
     [SerializeField] private TurningMechanic turningBar;
     [SerializeField] private TurningMechanic turningTop;
@@ -39,12 +38,14 @@ public class PlayerControls : MonoBehaviour
         turningBar.SetSize((float)(humanity * 0.01));
         turningTop.SetSize((float)(humanity * 0.01));
         pillCount = 30;
-        learnedPills = false;
 
         Time.timeScale = 1;
         pauseObjects = GameObject.FindGameObjectsWithTag("PauseMenu");
         showPauseMenu();
         hidePauseMenu();
+
+        DialogueManager.Instance.hasLearnedPills = false;
+        DialogueManager.Instance.hasNotEnteredLab = true;
 
         CureManager.Instance.circuitIsWon = false;
         CureManager.Instance.sliderIsWon = false;
@@ -56,7 +57,7 @@ public class PlayerControls : MonoBehaviour
 
         DialogueBox = GameObject.Find("DialogueBox").GetComponent<DialogueBehavior>();
 
-        DialogueBox.DialogueMessage("Ugh…what happened yesterday ? Where is everyone?");
+        DialogueBox.QueueDialogue(new KeyValuePair <int, string>(4, "\"Ugh . . . what happened yesterday? Where is everyone?\""));
     }
 
     // Update is called once per frame
@@ -99,15 +100,15 @@ public class PlayerControls : MonoBehaviour
         turningBar.SetSize((float)(humanity * 0.01));
         turningTop.SetSize((float)(humanity * 0.01));
 
-        humanity -= zombificationRate * Time.deltaTime;
+        humanity -= zombificationRate * Time.fixedDeltaTime;
         if(humanity <= 0)
         {
             SceneManager.LoadScene("DeathMenu");
         }
 
-        if(!learnedPills && humanity <= 60)
+        if(!DialogueManager.Instance.hasLearnedPills && (humanity < 60.01) && (humanity > 59.99))
         {
-            DialogueBox.DialogueMessage("Ugh... I don't feel so good. Maybe taking some of these pills will help?");
+            DialogueBox.QueueDialogue(new KeyValuePair <int, string>(6, "\"Ugh ... I don't feel so good. Maybe taking some of these pills will help?\""));
         }
     }
 
@@ -128,7 +129,8 @@ public class PlayerControls : MonoBehaviour
             if (collision.gameObject.name == "MapPillBottle")
             {
                 item.pickUp("pillBottle");
-                DialogueBox.DialogueMessage("What’s this ? A pill bottle ? Prescription from fairview hospital…take as needed for the Turning. I can’t make out the rest of this label.");
+                DialogueBox.QueueDialogue(new KeyValuePair <int, string>(5, "\"What’s this? A pill bottle? Prescription from Fairview Hospital . . . take as needed for the Turning.\""));
+                DialogueBox.QueueDialogue(new KeyValuePair <int, string>(3, "*Click the bottle in your inventory to take a pill.*"));
             }
             else if (collision.gameObject.name == "CureList") item.pickUp("cureList");
             else if (item.puzzle != null)
@@ -173,9 +175,9 @@ public class PlayerControls : MonoBehaviour
         humanity += 5;
         if (humanity > 100)
             humanity = 100;
-        if (!learnedPills)
+        if (!DialogueManager.Instance.hasLearnedPills)
         {
-            learnedPills = true;
+            DialogueManager.Instance.hasLearnedPills = true;
         }
     }
 

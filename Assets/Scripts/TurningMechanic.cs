@@ -33,7 +33,7 @@ public class TurningMechanic : MonoBehaviour
         if (top != null)
         {
             // scale 650 to 0
-            top.localPosition = new Vector3(1f, 650 * sizeNormalized);
+            top.localPosition = new Vector3(1f, 560 * sizeNormalized);
         }
     }
 }

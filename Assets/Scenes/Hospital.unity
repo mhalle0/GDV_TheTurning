@@ -299,7 +299,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c89353a58fb044ea5bd25cf16e0e6c42, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 3.5
   rb: {fileID: 13242485}
   animator: {fileID: 13242486}
   sprite: {fileID: 0}
@@ -2101,7 +2101,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 400915937}
-  - component: {fileID: 400915938}
   m_Layer: 0
   m_Name: NarrationTriggers
   m_TagString: Untagged
@@ -2128,19 +2127,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &400915938
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 400915936}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e11314364408e4425ad730020cdffdc6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  EnteredLab: 0
 --- !u!1 &410930205
 GameObject:
   m_ObjectHideFlags: 0
@@ -2672,7 +2658,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1092622285954234767, guid: 8ea765343e9d2481793abf07bd11ecd1, type: 3}
       propertyPath: msg
-      value: Looks like some kind of lab... I wonder what they were doing in here.
+      value: Looks like some kind of lab . . . wonder what they were doing in here.
       objectReference: {fileID: 0}
     - target: {fileID: 1092622285954234767, guid: 8ea765343e9d2481793abf07bd11ecd1, type: 3}
       propertyPath: UsesEnterLab
@@ -2684,6 +2670,26 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1092622285954234767, guid: 8ea765343e9d2481793abf07bd11ecd1, type: 3}
       propertyPath: UsesEnteredLab
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092622285954234767, guid: 8ea765343e9d2481793abf07bd11ecd1, type: 3}
+      propertyPath: requirements.Array.data[1]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092622285954234767, guid: 8ea765343e9d2481793abf07bd11ecd1, type: 3}
+      propertyPath: requirements.Array.data[0]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092622285954234767, guid: 8ea765343e9d2481793abf07bd11ecd1, type: 3}
+      propertyPath: requirements.Array.data[2]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092622285954234767, guid: 8ea765343e9d2481793abf07bd11ecd1, type: 3}
+      propertyPath: time
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092622285954234767, guid: 8ea765343e9d2481793abf07bd11ecd1, type: 3}
+      propertyPath: uses_hasNotEnteredLab
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1092622285954234768, guid: 8ea765343e9d2481793abf07bd11ecd1, type: 3}
@@ -3541,19 +3547,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1092622285954234766, guid: 8ea765343e9d2481793abf07bd11ecd1, type: 3}
       propertyPath: m_Size.y
-      value: 0.9343333
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1092622285954234767, guid: 8ea765343e9d2481793abf07bd11ecd1, type: 3}
       propertyPath: msg
-      value: It's so quiet...
+      value: It's so quiet . . .
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092622285954234767, guid: 8ea765343e9d2481793abf07bd11ecd1, type: 3}
+      propertyPath: time
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1092622285954234768, guid: 8ea765343e9d2481793abf07bd11ecd1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.469
+      value: 26
       objectReference: {fileID: 0}
     - target: {fileID: 1092622285954234768, guid: 8ea765343e9d2481793abf07bd11ecd1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -10.418
+      value: -12
       objectReference: {fileID: 0}
     - target: {fileID: 1092622285954234768, guid: 8ea765343e9d2481793abf07bd11ecd1, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3872,6 +3882,10 @@ PrefabInstance:
     - target: {fileID: 1092622285954234767, guid: 8ea765343e9d2481793abf07bd11ecd1, type: 3}
       propertyPath: msg
       value: Hello? Is anyone here?
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092622285954234767, guid: 8ea765343e9d2481793abf07bd11ecd1, type: 3}
+      propertyPath: time
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1092622285954234768, guid: 8ea765343e9d2481793abf07bd11ecd1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4205,11 +4219,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1092622285954234767, guid: 8ea765343e9d2481793abf07bd11ecd1, type: 3}
       propertyPath: msg
-      value: Is that door open? I should check it out?
+      value: Is that door open? Should I check it out?
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092622285954234767, guid: 8ea765343e9d2481793abf07bd11ecd1, type: 3}
+      propertyPath: time
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1092622285954234768, guid: 8ea765343e9d2481793abf07bd11ecd1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 14.6
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 1092622285954234768, guid: 8ea765343e9d2481793abf07bd11ecd1, type: 3}
       propertyPath: m_LocalPosition.y
@@ -36666,6 +36684,19 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 400915937}
     m_Modifications:
+    - target: {fileID: 1092622285954234767, guid: 8ea765343e9d2481793abf07bd11ecd1, type: 3}
+      propertyPath: uses_hasEnteredLab
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092622285954234767, guid: 8ea765343e9d2481793abf07bd11ecd1, type: 3}
+      propertyPath: msg
+      value: "\"I can\u2019t just sit here, I have to do something. I'm going back
+        to that hospital to figure out what's going on.\""
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092622285954234767, guid: 8ea765343e9d2481793abf07bd11ecd1, type: 3}
+      propertyPath: time
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 1092622285954234768, guid: 8ea765343e9d2481793abf07bd11ecd1, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.96
