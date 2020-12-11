@@ -90,7 +90,7 @@ public class PlayerControls : MonoBehaviour
         if (bench.hasIngredients() && !saidGetCure)
         {
 
-            DialogueBox.QueueDialogue(new KeyValuePair<int, string>(6, "\"Okay I have all the ingredients. I bet I can put the cure together at the lab bench.\""));
+            DialogueBox.QueueDialogue(new KeyValuePair<int, string>(6, "\"Okay, I have all the ingredients. I bet I can put the cure together in that lab.\""));
             saidGetCure = true;
         }
     }
@@ -198,7 +198,7 @@ public class PlayerControls : MonoBehaviour
     public void TakePill()
     {
         pillCount -= 1;
-        humanity += 5;
+        humanity += 6;
         if (humanity > 100)
             humanity = 100;
         if (!DialogueManager.Instance.hasLearnedPills)

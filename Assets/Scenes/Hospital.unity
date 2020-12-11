@@ -309,6 +309,7 @@ MonoBehaviour:
   humanity: 100
   zombificationRate: 1
   pillCount: 0
+  saidGetCure: 0
   turningBar: {fileID: 838673566}
   turningTop: {fileID: 955776996}
   bench: {fileID: 117383726}
@@ -2660,7 +2661,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1092622285954234767, guid: 8ea765343e9d2481793abf07bd11ecd1, type: 3}
       propertyPath: msg
-      value: Looks like some kind of lab . . . wonder what they were doing in here.
+      value: '"Looks like some kind of lab . . . wonder what they were doing in here."'
       objectReference: {fileID: 0}
     - target: {fileID: 1092622285954234767, guid: 8ea765343e9d2481793abf07bd11ecd1, type: 3}
       propertyPath: UsesEnterLab
@@ -3650,7 +3651,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1092622285954234767, guid: 8ea765343e9d2481793abf07bd11ecd1, type: 3}
       propertyPath: msg
-      value: It's so quiet . . .
+      value: '"It''s so quiet . . . "'
       objectReference: {fileID: 0}
     - target: {fileID: 1092622285954234767, guid: 8ea765343e9d2481793abf07bd11ecd1, type: 3}
       propertyPath: time
@@ -3980,7 +3981,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1092622285954234767, guid: 8ea765343e9d2481793abf07bd11ecd1, type: 3}
       propertyPath: msg
-      value: Hello? Is anyone here?
+      value: '"Hello? Is anyone here?"'
       objectReference: {fileID: 0}
     - target: {fileID: 1092622285954234767, guid: 8ea765343e9d2481793abf07bd11ecd1, type: 3}
       propertyPath: time
@@ -4319,7 +4320,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1092622285954234767, guid: 8ea765343e9d2481793abf07bd11ecd1, type: 3}
       propertyPath: msg
-      value: Is that door open? Should I check it out?
+      value: '"Is that door open? Should I check it out?"'
       objectReference: {fileID: 0}
     - target: {fileID: 1092622285954234767, guid: 8ea765343e9d2481793abf07bd11ecd1, type: 3}
       propertyPath: time

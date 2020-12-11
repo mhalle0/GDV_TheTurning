@@ -7754,7 +7754,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Add your puzzle information + controls + anything else here
+  m_text: 'Use the blue pre-filled letters, the lengths of words, and any other patterns
+    in the top sentence to figure out which letters correspond to which symbols --
+    then fill in the letters in the answer key to break the code. '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 603dada667ad0184ea610ec280f0e15a, type: 2}
   m_sharedMaterial: {fileID: -8076637654523902553, guid: 603dada667ad0184ea610ec280f0e15a, type: 2}

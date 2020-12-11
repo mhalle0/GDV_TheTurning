@@ -66,7 +66,7 @@ public class LabBenchBehavior : MonoBehaviour
             slotIngredient1.GetComponent<Image>().sprite = cureImage;
             slotIngredient1.GetComponent<Image>().enabled = true;
 
-            DialogueBox.QueueDialogue(new KeyValuePair<int, string>(4, "\"I got it, I got the cure! Now I just have to find a way out of here...\""));
+            DialogueBox.QueueDialogue(new KeyValuePair<int, string>(4, "\"I got it, I got the cure! Now I just have to find a way out of here . . .\""));
 
             Debug.Log("You've made the cure! Escape the hospital and bring it home to your child.");
         }
