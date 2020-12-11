@@ -21,6 +21,7 @@ public class PlayerControls : MonoBehaviour
     public float zombificationRate = 1f; // rate that you turn into a zombie
 
     public int pillCount;
+    public bool saidGetCure;
 
     [SerializeField] private TurningMechanic turningBar;
     [SerializeField] private TurningMechanic turningTop;
@@ -55,6 +56,7 @@ public class PlayerControls : MonoBehaviour
         CureManager.Instance.playerHasCure = false;
 
         FreezePlayer.Instance.puzzleIsOpen = false;
+        saidGetCure = false;
 
         DialogueBox = GameObject.Find("DialogueBox").GetComponent<DialogueBehavior>();
         List = GameObject.Find("CureList").GetComponent<ListBehavior>();
@@ -85,9 +87,11 @@ public class PlayerControls : MonoBehaviour
             TogglePause();
         }
 
-        if (bench.hasIngredients())
+        if (bench.hasIngredients() && !saidGetCure)
         {
+
             DialogueBox.QueueDialogue(new KeyValuePair<int, string>(6, "\"Okay I have all the ingredients. I bet I can put the cure together at the lab bench.\""));
+            saidGetCure = true;
         }
     }
 
