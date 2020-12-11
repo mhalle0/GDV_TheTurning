@@ -11,7 +11,16 @@ public class DialogueBehavior : MonoBehaviour
 
     void Start()
     {
-        DialogueMessage("Example call to DialogueMessage() function");
+        StartCoroutine("PlayDialogue");
+    }
+
+    void FixedUpdate()
+    {
+        if(FreezePlayer.Instance.puzzleIsOpen == true)
+        {
+            boxCG.alpha = 0;
+            DialogueManager.Instance.dq.Clear();
+        }
     }
 
     public void DialogueMessage(string msg)
@@ -28,6 +37,32 @@ public class DialogueBehavior : MonoBehaviour
         StartCoroutine("FadeInDialogueBox");
     }
 
+    IEnumerator HideDialogueAfter(int seconds)
+    {
+        yield return new WaitForSeconds(seconds);
+        HideDialogueBox();	
+    }
+
+    public void QueueDialogue(KeyValuePair<int, string> kv){
+        DialogueManager.Instance.dq.Enqueue(kv);
+    }
+
+    public IEnumerator PlayDialogue()
+    {
+        while(true)
+        {
+            yield return new WaitUntil(() => (DialogueManager.Instance.dq.Count > 0));
+            while(DialogueManager.Instance.dq.Count > 0)
+            {
+                var dequeued = DialogueManager.Instance.dq.Dequeue();
+                ShowDialogueBox();
+                DialogueMessage(dequeued.Value);
+                yield return new WaitForSeconds(dequeued.Key);
+                HideDialogueBox();
+            }
+        }
+    }
+
     public IEnumerator FadeOutDialogueBox() 
     {
         float timePassed = 0;
@@ -35,7 +70,7 @@ public class DialogueBehavior : MonoBehaviour
         while (timePassed <= duration) 
         {
             timePassed += Time.deltaTime;
-            Debug.Log("time passed: " + timePassed + " out of " + duration);
+            //Debug.Log("time passed: " + timePassed + " out of " + duration);
             boxCG.alpha = Mathf.Lerp(1, 0, timePassed / duration);                      //Mathf.Lerp(1f, 0f, elapsedTime / duration);
             yield return null;
         }
@@ -49,7 +84,7 @@ public class DialogueBehavior : MonoBehaviour
         while (timePassed <= duration) 
         {
             timePassed += Time.deltaTime;
-            Debug.Log("time passed: " + timePassed + " out of " + duration);
+            //Debug.Log("time passed: " + timePassed + " out of " + duration);
             boxCG.alpha = Mathf.Lerp(0, 1, timePassed / duration);                      //Mathf.Lerp(1f, 0f, elapsedTime / duration);
             yield return null;
         }

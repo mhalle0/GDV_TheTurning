@@ -180,13 +180,13 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '- Connect each node to 2 other adjacent nodes to complete the circuit!
+  m_text: 'Connect each node to 2 other adjacent nodes to complete the circuit!
 
-    -
-    Each node can only connect to a maximum of 2 other nodes.
+    Each
+    node can only connect to a maximum of 2 other nodes.
 
-    - Click a node
-    to select it and click the adjacent node to connect them.'
+    Click a node to select
+    it and click the adjacent node to connect them.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 603dada667ad0184ea610ec280f0e15a, type: 2}
   m_sharedMaterial: {fileID: -8076637654523902553, guid: 603dada667ad0184ea610ec280f0e15a, type: 2}

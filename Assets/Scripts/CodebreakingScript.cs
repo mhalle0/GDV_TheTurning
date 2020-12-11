@@ -171,7 +171,10 @@ public class CodebreakingScript : MonoBehaviour
 
         foreach(InputField i in allInputFields)
         {
-            i.text = "";
+            if( (i != AP_U) && (i != AI_U) && (i != AP_C) && (i != AI_C) && (i != AP_T) && (i != AI_T) )
+            {
+                i.text = "";
+            }
         }
     }
 
