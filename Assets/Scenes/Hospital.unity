@@ -305,6 +305,7 @@ MonoBehaviour:
   sprite: {fileID: 0}
   idleSprite: {fileID: -7309246076734674801, guid: 45080c5a4943b4edea3452cf314eb664, type: 3}
   DialogueBox: {fileID: 0}
+  List: {fileID: 0}
   humanity: 100
   zombificationRate: 1
   pillCount: 0
@@ -739,6 +740,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cureImage: {fileID: 7856676115516184709, guid: 6bb83a5566bab405fb6ecfa2e06a0691, type: 3}
+  DialogueBox: {fileID: 0}
   cureReady: 0
 --- !u!212 &117383727
 SpriteRenderer:
@@ -3992,6 +3994,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pickedUp: 0
+  DialogueBox: {fileID: 0}
 --- !u!61 &829910316
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -21723,7 +21726,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1182545644}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -421.06, y: -245.66, z: 0}
+  m_LocalPosition: {x: -422.69, y: -245.27, z: 0}
   m_LocalScale: {x: 0.033677876, y: 0.033677876, z: 0.033677876}
   m_Children: []
   m_Father: {fileID: 338424540}
