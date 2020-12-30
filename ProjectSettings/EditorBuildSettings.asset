@@ -14,7 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Hospital.unity
     guid: 6f2a97bf58ce35448b611e89a4542276
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/PuzzleTemplate.unity
     guid: f6214103c982c43edb5c5440d76693b6
   - enabled: 1
