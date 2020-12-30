@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Teleport
+  - InvItem
+  - Pill
+  - LabBench
+  - Wire
+  - PauseMenu
+  - PuzzleInfo
+  - Exit
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - UI Background
+  - Floor and Walls
+  - Doors
+  - Room Items
+  - UI Behind Background
+  - CircuitPuzzle Nodes
+  - Slider Puzzle UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: UI Items
+    uniqueID: 1977913205
+    locked: 0
+  - name: UI Background
+    uniqueID: 1267423047
+    locked: 0
+  - name: UI Behind Background
+    uniqueID: 1934849243
+    locked: 0
+  - name: Floor and Walls
+    uniqueID: 3343114671
+    locked: 0
+  - name: Doors
+    uniqueID: 4109973787
+    locked: 0
+  - name: Items in Rooms
+    uniqueID: 3902778407
+    locked: 0
